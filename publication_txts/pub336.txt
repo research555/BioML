@@ -1,0 +1,58 @@
+Seven facts and five initiatives for gut microbiome research
+
+The gut microbiome has attracted increasing attention over the past 15 years. Along with the fast-growing body of research literature and media reports, the public’s opinions on the gut microbiome have begun to appear polarized.
+
+However, neither view is impartial. Here, we present seven facts about the gut microbiome research, and provide five initiatives to promote the healthy development of this field.
+
+There are more than 50,000 gut microbiome research articles in the database of Web of Science since 2000. Prior to 2005, the relevant publications averaged no more than 500 per year. However, as of December 18, 2019, there are already more than 9,500 publications year-to-date, which has grown about 30 times since 2000, 6 times since 2010, and doubled since 2015 (Fig. 1).
+
+Behind the rise of gut microbiome research is the rapid development of cutting-edge biological research technologies (Gilbert et al., 2016; Gilbert et al., 2018), including germ-free animal models (Uzbay, 2019), next-generation sequencing technologies (Shendure et al., 2017), and multi-omics approaches (Quince et al., 2017; Lagier et al., 2018; Zhang et al., 2019) such as metagenomics, metatranscriptomics, metabolomics, and culturomics. The development and application of these technologies not only enable researchers to analyze composition and structure of gut microbiome, but also make it possible to study and verify the function of the microbiome and its association with health and disease from different interdisciplinary perspectives.
+
+The rapid development of the gut microbiome research in recent years is not only related to the scientific community’s deepening understanding of the function of the microbiome, but also inseparable from each nation’s strategic support.
+
+At the same time, industrialization and commercialization of gut microbiome-related application is also progressing. The establishment of related biotechnology companies has sprung up, with considerable global investment. As of 2019, more than $ 3 billion has been invested in gut microbiome-related innovation companies. Similar to basic research, the United States took the lead with more than $ 2.4 billion in investment, and other countries are catching up (Fig. 3).
+
+The pivotal role of the gastrointestinal (GI) tract in health forms the basis for the gut microbiome to participate in host physiological processes and even affect human health and disease (Goldszmid and Trinchieri, 2012). Besides its role in the digestion, absorption, and metabolism of food and nutrients, the gut is an important immune and endocrine organ (Rehfeld, 1998; Weiner et al., 2011; Gribble and Reimann, 2019). In addition, it is also known as “the second brain” with a complex enteric nervous system which communicates with the brain via the vagus nerve (Mayer, 2011; Avetisyan et al., 2015; Yoo and Mazmanian, 2017).
+
+Furthermore, gut microbiome can also influence the effect of drugs and therapies by participating in drug metabolism and affecting host immune response (Skelly et al., 2019; Zimmermann et al., 2019a, b); and it has been shown that lab animals that are too “clean” are not optimal models for drug development (Rosshart et al., 2019).
+
+Although plenty of work has shown that the gut microbiome plays a crucial role in human health, other factors, such as genetics, environmental exposure, and lifestyle, can also influence disease risk (Franks and McCarthy, 2016; Hall et al., 2017; Gentile and Weir, 2018; Scott et al., 2019). It has been speculated that, in some cases, gut microbiome abnormality may be not the root cause of disease but rather a mediating factor or a bystander (Hanage, 2014; Franks and McCarthy, 2016; Crow, 2018; Inamo, 2019; Jia et al., 2019).
+
+When talking about gut microbiome-associated diseases, such as diarrhea (Singh et al., 2018), inflammatory bowel disease (Piovani et al., 2019), irritable bowel syndrome (Ford et al., 2017), cardiovascular disease (Miller et al., 2017), autism (Bai et al., 2019), Alzheimer’s disease (Kivipelto et al., 2018), Parkinson’s disease (Ascherio and Schwarzschild, 2016), it is important to keep in mind that the gut microbiome is only one aspect of the disease, and we should avoid overemphasizing its importance.
+
+What we know so far about gut microbiome might still just be the tip of the iceberg, and many limitations, inconclusive findings and controversies still exist within this field.
+
+Thus, it is fair to conclude that microbiome research is still in its infancy, more thorough research with better methods has to be carried out to determine the role as well as mechanisms of gut microbiome in human health and diseases, plus the efficacy and safety of interventional approaches.
+
+Due to inappropriate self-publicity and interpretation of certain researchers, combined with the further exaggeration of many media and commercial partners, many of the gut microbiome research results and microbiome-based research products have been labeled erroneously to be the new panacea, capable of treating all kinds of illness. This idea was even adopted by many of the radical researchers. Such extreme kind of concept is for sure detrimental for the gut microbiome research and industry.
+
+Under such circumstances, many of the claims by infant dairy products including promoting cognitive capacity and safeguarding intestinal health lack sufficient scientific evidence (Hughes et al., 2017). Yet how to regulate such issues remains a difficult task for regulatory bodies including the US FDA (The Lancet null, 2019).
+
+Many of experts in this field have realized that the recent zealousness might lead to a topic bubble, and the call for strengthening self-purification and discipline also gained support, with a few such recommendations being issued via scientific journals.
+
+Thus, it is obvious that a fully functioning self-purification and discipline mechanism has been established among the scientific bodies of microbiome researchers, covering the design and execution of research, means of regulation and biological ethics.
+
+Based on the above 7 facts about gut microbiome, in particular, we propose below five initiatives for basic researchers, clinicians, and industrial professionals in relevant fields:
+
+We propose that research activities related to gut microbiome should be subject to necessary ethical review and peer review.
+
+Researchers should learn, practice and respect bioethical principles, adhere to scientific spirit, scientific culture and research ethics; on the basis of truth-seeking and rational criticism, researchers should strive to be innovative and responsible; researchers should adjust the relationship between themselves and collaborators (including other researchers, funders, research subjects, general public/consumers) and objects (including experimental animals, ecological environment, etc.) in a timely manner, and also take social responsibility.
+
+We propose that basic researchers, clinicians, industry and media professionals should avoid hype and over-promoting/packaging of gut microbiome and themselves, and actively participate in self-discipline and self-purifying in the whole field.
+
+Researchers should avoid using their affiliated insititutions, and their position endorsement to create personal influence, refrain from self-marketing, and also avoid exaggerating or over-promoting individual or team’s research results. In the publicity work of scientific research, industry, and social media, we should avoid the labeling gut microbiome as “panacea” or “useless”; we oppose opportunism, clickbait, and sensationalising the hot topic; we oppose the “vulgarization” and “pseudoscientization” of gut microbiome research, including the abuse of the concept of “gut microbiome” to irrelevant fields, or promise unrealistic effects, etc.
+
+We propose that researchers actively disclose the conflict of interest in various occasions, such as publishing papers, academic speeches, media publicity, etc., and at the same time, if there are potential safety risks in related products and services, they should proactively inform consumers or patients.
+
+In both research and translational application, it is important to maintain openness and transparency during risk recognition, assessment, risk management and damage control. Researchers actively disclose conflict of interest would not only be beneficial for individuals, but also for the brand accumulated value and dissemination of products and/or services. Meanwhile, if researchers can actively inform patients/ consumers about the safety risks, this will also increase brand trusts and credibility of individuals, products or services, and effectively avoid bringing risks to consumers/patients, thus reducing the systematic risks of whole industry.
+
+We propose to strictly abide by national laws and regulations and adhere to evidence-based scientific rules in the process of industrialization. The function, efficacy, and health benefit claims of a specific product or service must comply with the relevant national laws and regulations, and must never break the legal and ethical bottom line. The promotion of function and efficacy of a particular products or services should be based on high-quality evidence, and the evidence of RCT should be developed and accumulated. We should not over-interpret the results generated from cell and animal experiments, whereas also pay special attention to the risks of side effects and unintended consequences.
+
+We call on professionals to actively participate in science popularization, dissemination and education activities for the public, meanwhile also consciously absorb public opinions and encourage the public to participate in and contribute to scientific research equally.
+
+In the face of the rapid development of gut microbiome research and fast growing of knowledge update and accumulation, there are a mix of hope, help, and hype, which sometimes make people confused. Furthermore, the area of gut microbiome is increasingly influenced and even dominated by commercial market and capitals, which may put public interest at stake. Therefore, established and mainstream front-line experts are urgently needed to participate in popular science activities. In the daily science communication work, professionals can systematically popularize the relevant knowledge of gut microbiota, whereas in case of big events, they should respond to the public’s concerns in a timely and transparent manner and ultimately to achieve a responsible and sustainable supportive environment for research.
+
+FDA, Food and Drug Administration; FMT, fecal microbiota transplantation; HMP, Human Microbiome Project; ICU, intensive care unit; NIH, National Institutes of Health; RCT, randomized controlled trial.
+
+Danyi Li, Chunhui Gao, Faming Zhang, Ruifu Yang, Canhui Lan, Yonghui Ma, and Jun Wang declare that they have no conflict of interest. This article does not contain any studies with human or animal subjects performed by any of the authors.
+

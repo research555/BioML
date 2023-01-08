@@ -1,0 +1,255 @@
+SRS-FISH: A high-throughput platform linking microbiome metabolism to identity at the single-cell level
+
+
+
+
+
+Microbial communities play fundamental roles in the functioning of environmental and human-associated ecosystems. Yet, conventional experimental approaches to study the function of individual microbes in their native habitat are highly time consuming, allowing analysis of only a few cells or samples. Here, we report the development of a high-throughput stimulated Raman scattering–two-photon fluorescence in situ hybridization (SRS-FISH) platform to investigate the metabolism and identity of uncultivated microorganisms with single cell–level resolution. SRS-FISH enabled us to detect metabolic responses of over 30,000 cells from human gut microbiome taxa to mucosal sugars. Metabolism and identity analysis of multiple samples revealed that microbiome response to mucosal sugars is individual specific and that Clostridia may have been overlooked as mucosal sugar degraders.
+
+One of the biggest challenges in microbiome research in environmental and medical samples is to better understand functional properties of microbial community members at a single-cell level. Single-cell isotope probing has become a key tool for this purpose, but the current detection methods for determination of isotope incorporation into single cells do not allow high-throughput analyses. Here, we report on the development of an imaging-based approach termed stimulated Raman scattering–two-photon fluorescence in situ hybridization (SRS-FISH) for high-throughput metabolism and identity analyses of microbial communities with single-cell resolution. SRS-FISH offers an imaging speed of 10 to 100 ms per cell, which is two to three orders of magnitude faster than achievable by state-of-the-art methods. Using this technique, we delineated metabolic responses of 30,000 individual cells to various mucosal sugars in the human gut microbiome via incorporation of deuterium from heavy water as an activity marker. Application of SRS-FISH to investigate the utilization of host-derived nutrients by two major human gut microbiome taxa revealed that response to mucosal sugars tends to be dominated by Bacteroidales, with an unexpected finding that Clostridia can outperform Bacteroidales at foraging fucose. With high sensitivity and speed, SRS-FISH will enable researchers to probe the fine-scale temporal, spatial, and individual activity patterns of microbial cells in complex communities with unprecedented detail.
+
+With the rapid advances in both genotyping and phenotyping of single cells, bridging genotype and phenotype at the single-cell level is becoming a new frontier of science (1). Methods have been developed to shed light on the genotype–metabolism relationship of individual cells in a complex environment (2, 3), which is especially relevant for an in-depth understanding of complex microbial communities in the environment and host-associated microbiomes. For functional analyses of microbial communities, single-cell isotope probing is often performed in combination with nanoscale secondary ion mass spectrometry (NanoSIMS) (4–7), microautoradiography (MAR) (8, 9), or spontaneous Raman microspectroscopy (10–12) to visualize and quantify the incorporation of isotopes from labeled substrates. These methods can be combined with fluorescence in situ hybridization (FISH) using ribosomal ribonucleic acid (rRNA)-targeted probes (13), enabling a direct link between metabolism and identity of the organisms. In addition, Raman-activated cell sorting has been recently developed using either optical tweezers or cell ejection for downstream sequencing of the sorted cells (14–16). While these approaches have expanded the possibilities for functional analyses of microbiome members (17), all of the aforementioned methods suffer from extremely limited throughput. Consequently, only relatively few samples and cells per sample are typically analyzed in single-cell stable isotope probing studies, hampering a comprehensive understanding of the function of microbes in their natural environment.
+
+Our technology enabled high-throughput analysis of single-cell metabolism in the human gut microbiome. In the human body, microbes have been shown to modulate the host’s health (43, 44). Analytical techniques looking into their activities and specific physiologies (i.e., phenotype) as a result of both genotype and the environment provide key information on how microbes function, interact with, and shape their host. As a proof of principle, we used stimulated Raman scattering–two-photon fluorescence in situ hybridization (SRS-FISH) to track the incorporation of deuterium (D) from
+D
+2
+O
+into a mixture of two distinct gut microbiota taxa. Incorporation of D from
+D
+2
+O
+into newly synthesized cellular components of active cells, such as lipids and proteins, occurs analogously to incorporation of hydrogen from water during the reductive steps of biosynthesis of various cellular molecules (10, 45, 46). Importantly, D incorporation from
+D
+2
+O
+has been shown to be reliable to track metabolic activity of individual cells within complex microbial communities in response to the addition of external substrates (10, 17, 47). When microbial communities are incubated in the presence of
+D
+2
+O
+under nutrient-limiting conditions, individual cells display only minimal activity and only minor D incorporation (11, 17, 47). In contrary, when cells are stimulated by the addition of an external nutrient, cells that can metabolize this compound become active and incorporate D into macromolecules, which lead to the presence of C-D bonds into the cell’s biomass. Consequently, D incorporation from
+D
+2
+O
+can be combined with techniques able to detect C-D signals, such as Raman-based approaches, and to track metabolic activity at the single-cell level in response to a variety of compounds. Here, we show that SRS-FISH enables fast and sensitive determination of the D content of individual cells while simultaneously unveiling their phylogenetic identity. We applied this technique to complex microbial communities by tracking in situ the metabolic responses of two major phylogenetic groups of microbes in the human gut (Bacteroidales and Clostridia spp.) and of a particular species within each group to supplemented host-derived nutrients. Our study revealed that 1) Clostridia spp. can actually outperform Bacteroidales spp. at foraging on the mucosal sugar fucose and shows 2) a significant interindividual variability of responses of these major microbiome taxa toward mucosal sugars. Together, our results demonstrate the capability of SRS-FISH to unveil the metabolism of particular microbes in complex communities at a throughput that is two to three orders of magnitude higher than other metabolism identity bridging tools, therefore providing a valuable multimodal platform to the field of single-cell analysis.
+
+SRS can visualize chemical information by coherently probing Raman active vibrations with two synchronized pulsed pump and Stokes beams. When the energy difference is tuned to the vibrational energy of the targeted chemical bond, a chemical concentration map can be generated. In our case, considering that C-H and C-D stretching vibrations are spectrally broad, we used femtosecond pulses to maximize the detection sensitivity (48). The use of femtosecond pulses facilitates efficient two-photon excited FISH on the same SRS microscope. The SRS and FISH signals are sequentially detected in the forward direction using a photodiode and two silicon photomultipliers, respectively. The energy schematic and the setup are shown in Fig. 1 A and B. Details can be found in Materials and Methods.
+
+To determine D incorporation into bacteria, the pump and Stokes beams were tuned to target the C-D vibrational peak (2,168
+cm
+-1
+). As bacterial cells have sizes that are comparable with the laser focus laterally and axially (SI Appendix, Fig. S1), the different volumes exhibited by different bacterial species can influence the SRS intensity level. To compensate for this effect, the pump beam was tuned to target the center of the C-H bond vibrational peak (2,946
+cm
+-1
+) as a reference signal for intensity normalization. In terms of absolute concentrations, measurements of dimethyl sulfoxide (DMSO)/
+H
+2
+O
+mixtures revealed that as low as around 3 million C-D bonds or C-H bonds can reliably be detected by femtosecond SRS within the excitation volume. We have observed that some bacterial species generated signals in the silent spectral regions (from 1,800 to 2,800
+cm
+-1
+) that can be detected by SRS but not by spontaneous Raman spectroscopy (SI Appendix, Fig. S3), which may originate from other nonlinear processes, such as transient absorption, photothermal lensing, and cross-phase modulation (50, 51). In order to correct this unspecific background, off-resonance images were recorded with the pump beam tuned to target 2,479
+cm
+-1
+in the silent region and subtracted from both C-D and C-H SRS images (SI Appendix, Figs. S3 and S4). Via combination of the individual signal intensities, a quantity can be defined that expresses the metabolic activity in D incorporation as
+%
+CD
+SRS
+, calculated from the SRS signal intensities at C-D, C-H, and off resonance, according to the formula
+%
+CD
+SRS
+=(
+I
+CD
+-I
+off
+)/(
+I
+CD
++I
+CH
+-2I
+off
+)
+, where
+I
+stands for intensity (Fig. 1D and Materials and Methods).
+
+Although SRS has been used before (but without combining it with FISH) for imaging isotope incorporation in bacterial and mammalian cells (25, 39), a more comprehensive study about D isotope labeling detected by SRS imaging on different bacterial species has not been conducted yet. In order to evaluate the optimum measurement settings, a first trial with two cultures of Escherichia coli cells grown in M9 mineral (M9) medium, one without the addition of
+D
+2
+O
+(natural isotope abundance control) and the other one after addition of heavy water (50%
+D
+2
+O
+), was performed. For each culture, 81 image scans, conducted with 10 µs per pixel dwell time, were recorded within randomly selected fields of view (FOVs). Analysis of these datasets revealed that 10 scans, corresponding to a measurement time of around 1 ms per single cell (SI Appendix, Fig. S2), are sufficient for obtaining adequate precision in the determination of
+%CD
+values under maintenance of the high throughput of the technique (SI Appendix, SI Text).
+
+Overall, SRS microscopy enabled efficient detection and discrimination of both gram-positive and gram-negative hybridized cells displaying a wide range of D content, with mean
+%
+CD
+SRS
+values ranging from as low as 2.4% up to 30% (Fig. 2 A and C) (P < 0.05, two-sided Mann–Whitney U test). To validate the accuracy of femtosecond SRS for detection of bacterial activity, we compared
+%
+CD
+SRS
+with
+%CD
+values measured by spontaneous Raman microspectroscopy (
+%
+CD
+Raman
+) (10). Under our conditions, SRS displayed similar sensitivity as spontaneous Raman (Fig. 2). However, SRS analysis is two to three orders of magnitude faster than achieved with spontaneous Raman (10 to 100 ms per cell vs. 20 s per cell) (42). This high speed enables SRS measurements of a much larger number of cells, therefore increasing the power of statistical analysis and throughput. It is challenging to quantitatively compare the
+%CD
+value distribution patterns of SRS and spontaneous Raman due to the difference in the measurement principle (SI Appendix, SI Text). However, the data from our pure culture experiments clearly revealed that SRS-FISH is a fast and versatile platform to track metabolic activity in FISH-targeted bacteria.
+
+As both SRS and TPEF are multiphoton processes, the compatibility of these two schemes requires further validation. Cellular contents labeled with fluorescent dyes can lead to background signals detected by SRS, impacting the
+%
+CD
+SRS
+values. This can occur when a fluorophore absorbs one photon from the pump and one photon from the Stokes beam. The simultaneous absorption of photons from the two distinct beams could interfere with the SRS signal through a phenomenon known as nondegenerate two-photon absorption. Although two-photon absorption can be calculated based on the absorption cross-sections of the utilized dyes, there are scant data of nondegenerate two-photon absorption to estimate its influence on SRS. In our setup, we could not detect any interference on SRS attributable to the fluorophores in the sample, as we did not observe any significant differences in the
+%CDs
+values of hybridized compared with nonhybridized cells grown in the absence of
+D
+2
+O
+for the two different media tested (SI Appendix, Fig. S5) (0%
+D
+2
+O
+). Therefore, the lower
+%CDs
+values obtained after FISH in D-labeled cells are not caused by an interference with the dyes used for FISH with SRS imaging (SI Appendix, Fig. S5).
+
+Having confirmed that SRS and two-photon FISH are compatible, we applied SRS-FISH to an artificial mixture of E. coli and B. thetaiotaomicron cells, each hybridized with taxa-specific oligonucleotide probes labeled with a different dye (Fig. 3B). As a first approach, both E. coli and B. thetaiotaomicron cells were grown in minimal medium without the addition of
+D
+2
+O
+. Under these conditions, both cell populations displayed close to zero levels of D incorporation (Fig. 3 B, Left). When we analyzed a mixture of D-labeled E. coli and non–D-labeled B. thetaiotaomicron cells, D incorporation was observed from E. coli cells targeted with the Gam42a-Cy5 probe, while B. thetaiotaomicron targeted by the Bac303-Cy3 probe displayed no D labeling (Fig. 3 B, Right, highlighted circles). Using the signal obtained from TPEF, masks were generated by CellProfiler (Materials and Methods) for either of the FISH-targeted populations (SI Appendix, Fig. S4), enabling automated
+%
+CD
+SRS
+calculation for each FISH-targeted population. While Cy5-tagged E. coli cells displayed
+%CD
+values of around 20, which reflected D incorporation from the
+D
+2
+O
+in the M9 medium, Cy3-tagged B. thetaiotaomicron cells displayed
+%CD
+values close to 0, as expected (Fig. 3C).
+
+To demonstrate the applicability of the SRS-FISH setup to identify active taxa within a complex microbial community, we examined the responses of specific taxa from the human gut microbiota to additions of sugars contained in the mucus layer (56, 57) (Fig. 4A). Gut commensals able to forage on mucin play a pivotal role in resistance to pathogen colonization and in modulating the host immune response (56, 57). In previous work,
+D
+2
+O
+combined with spontaneous Raman-activated cell sorting revealed that members of the families Muribaculaceae, Bacteroidaceae, and Lachnospiraceae are major mucosal sugar foragers in the mouse gut, and whole-genome sequencing revealed that the vast majority of these organisms indeed have genomic potential to catabolize these sugars (17). However, given the differences in microbiota composition of mice and humans as well as differences in predominant types of mucus glycans that can be found in the two hosts (58, 59), it remains to be clarified if the same taxa are efficient mucosal sugar utilizers in the human gut and what their substrate preferences are. For this purpose, freshly collected human fecal samples were incubated with the five different mucin O-glycan sugars (N-acetylneuraminic acid [NeuAc], N-acetylglucosamine [GlcNAc], N-acetylgalactosamine [GalNAc], fucose, and galactose) in M9 minimal medium (without glucose) containing 50%
+D
+2
+O
+(Fig. 4A). In this work, we chose M9 medium because it is a defined minimal medium where the only carbon source is the sugar amended, so one can expect very low metabolic activity in the absence of the substrate of interest (SI Appendix, SI Text). Under these conditions, we observed that human gut microbes responded to the amended mucosal sugars as well as to glucose (used as a positive control) by incorporating D into their biomass, as revealed using spontaneous Raman (Fig. 4B). As expected, only negligible incorporation of D was detected for cells that had been incubated in the presence of
+D
+2
+O
+but in the absence of any amended sugar, reflecting very low metabolic activity driven, for example, by storage products or substrates released from decaying bacteria (Fig. 4B).
+
+A challenge encountered in imaging of the complex gut microbiome samples by SRS-FISH was that the TPEF signal from fluorescently labeled cells bleached much faster than observed with pure cultures. To overcome this limitation, we acquired the TPEF signals from microbiome samples in a dried state to slow down bleaching while maintaining FISH imaging accuracy (SI Appendix, Figs. S6 and S7). Subsequently, the samples were immersed by the addition of water for maintaining the SRS intensity and sensitivity achieved in a liquid environment (SI Appendix, Fig. S6 and SI Text). Using the SRS-FISH protocol optimized for complex microbiome samples, we examined the response of cells targeted by the Bac303-Cy3 and Erec482-Cy5 probes to each mucosal sugar in fecal samples from three different volunteers (Fig. 5 and SI Appendix, Fig. S8). The response to mucosal sugars differed from volunteer to volunteer (one-way ANOVA test, P < 2.225
+×
+10
+-308
+) (SI Appendix, Fig. S9) both in quantitative and qualitative terms. Quantitatively, the overall microbiome response to the amended sugars (with respect to the number of active cells and their
+%CD
+values) was the highest for volunteer 2, while the lowest cellular activity was detected for volunteer 3 (SI Appendix, Figs. S9 and S10). This is not surprising given that the human microbiome is highly individualized and also, that different fecal samples have been reported to contain different fractions of viable cells (66, 67). For volunteers 1 and 2, between 95 and 100% of the analyzed cells became active and isotopically labeled in response to glucose, which emphasizes that the incubation conditions applied in this study enable potentially all microbiome members to respond and get D labeled (SI Appendix, Figs. S9 and S10). Across the three samples, the highest average number of active cells (and higher
+%CD
+values) was recorded in response to the mucosal sugar GlcNAc followed by the response to galactose (SI Appendix, Figs. S9 and S10), which is in agreement with the results obtained by spontaneous Raman (Fig. 4B). Overall, we could detect a significant response of both FISH-targeted taxa to the mucosal sugars in all the samples analyzed, with the exception of Erec482-targeted taxa to GalNAc in the sample from volunteer 1 (Fig. 5B and SI Appendix, Table S2). In none of the samples did the no amendment control lead to the stimulation of a significant number of cells (Fig. 5B and SI Appendix, Table S2). Furthermore, the response of Bac303-targeted taxa was overall higher than the response from Erec482-targeted taxa across all volunteers for all supplemented sugars with the exception of fucose, where the inverse was observed for two of the volunteers (Fig. 5 and SI Appendix, Fig. S10). These findings hold even by taking into consideration that the unspecific signals in the C-D region were higher in the control group (
+H
+2
+O
+) for Bac303-targeted cells than for Erec482-targeted cells (Fig. 5). We further extended the SRS-FISH analysis by applying FISH probes targeting particular species within Bacteroidales [Bacteroides vulgatus, targeted by the Bvulg1017-Cy3 probe (60)] and Lachnospiraceae [Agathobacter rectalis, formerly Eubacterium rectale, targeted by the Erec996 + Erec1252-Cy5 probe (68)] that have been previously proposed either to contribute to mucin degradation (B. vulgatus) (69) or to preferentially associate with the mucin layer (A. rectalis) (70) (SI Appendix, Fig. S11 and Table S1). For volunteer 2, we observed that the response from A. rectalis was low for all mucosal sugars tested, suggesting that it may be a poor mucus degrader despite its ability to colonize the mucus layer (SI Appendix, Fig. S11). Importantly, this analysis also revealed that B. vulgatus is one of the most efficient sialic acid consumers within Bacteroidales, with Bvulg1017-targeted cells overall displaying higher levels of metabolic activity in response to this sugar when compared with cells targeted by the broader Bac303 probe (Fig. 5 and SI Appendix, Fig. S11B).
+
+Microbial communities are fundamental to the functioning of all ecosystems and the health of animals, plants, and humans. These microbiomes are typically investigated by metaomic analyses that generate valuable annotation-based hypotheses regarding the metabolism of their members but are not suited for testing these hypotheses as gene annotations are often missing, wrong, or incomplete (71). Furthermore, many microbes have cell cycles and show considerable phenotypic diversity within isogenic strains, and the activity of microbes is influenced by their spatial arrangement in their habitat. Thus, there is an urgent need for direct functional analyses of microbes within complex samples with single-cell resolution.
+
+In summary, we have developed an exceptionally high-throughput SRS-FISH platform and successfully applied this tool to identify efficient mucosal sugar utilizers in the human gut microbiome. SRS-FISH can be applied to a broad range of environmental samples (e.g., marine sediments, soil), including those where some autofluorescence background is an issue because SRS is more resilient to sample autofluorescence than spontaneous Raman (20, 90). Meanwhile, SRS-FISH is not limited to microbiome samples. With the state-of-the-art SRS metabolism imaging and versatile FISH techniques, such as probing abnormal proliferation of chromosomes or targeting messenger ribonucleic acid (mRNA), SRS-FISH will be broadly applicable to eukaryotes. By allowing the scanning of multiple samples in a fast and sensitive manner, SRS-FISH is well suited to reveal fine-scale temporal, individual, and spatial patterns in a variety of specimens, which can otherwise be missed by existing methods due to their low throughput.
+
+A dual-output, 80-MHz femtosecond pulsed laser (InSight ×3; Spectra-Physics) provides the pump beam (tunable from 680 to 1,300 nm) and the Stokes beam (fixed at 1,045 nm) for the SRS system (Fig. 1B). Stimulated Raman loss provides the SRS intensity by detecting the modulation transfer from the Stokes to the pump beam. The Stokes beam was modulated by an acoustooptic modulator (1205c; Isomet Corporation) at
+∼
+2.26 MHz. The two beams were then combined by the dichroic mirror and directed into a laboratory-built laser scanning microscope. A 60× water objective (UPlanApo 60XW, numerical aperture (NA) = 1.2; Olympus) focused the collinear beams on the sample. The power on the sample was
+∼
+6 mW for the pump beam and
+∼
+32 mW for the Stokes beam. The two-dimensional galvo scanning unit (6215H; Cambridge Technique) was conjugated to the back aperture by a four-focal/telescope with finite conjugates system and scanned the laser focus to create the SRS image. An oil condenser (NA = 1.4, Aplanat Achromat 1.4; Olympus) alleviated the cross-phase modulation-induced background in SRS by better collecting laser beams. The collected beams were filtered by two filters (HA825/150m; Chroma), and only the pump beam was detected by the silicon photodiode (S3994-01; Hamamatsu). Then, the photon-converted electric signal was first separated into alternating current (AC) readout and direct current (DC) readout. Then, the AC signal was amplified by the laboratory-build resonant amplifier circuit centered at
+∼
+2.26 MHz. After that, the AC signal was further extracted by a lock-in amplifier (HF2LI; Zurich Instrument). As the femtosecond pulsed lasers have rather broad bandwidths, femtosecond SRS has a total covering range of 200
+cm
+-1
+around the peak (29). Thus, in this study, the C-D and C-H signature peaks at 2,040 to 2,300
+cm
+-1
+and at 2,800 to 3,100
+cm
+-1
+can be mostly covered by femtosecond SRS.
+
+To incorporate FISH visualization into the platform, we implemented TPEF in the SRS system (Fig. 1 A, Right). Forward detection with a higher collection efficiency of the condenser better preserved the fluorescence signal. With a flip mirror, the light was directed into the fluorescence collection devices. Two silicon photomultiplier (C14455-3050GA; Hamamatsu) modules were implemented to provide better-quality fluorescence images compared with photomultiplier tubes (H7422-40; Hamamatsu) with an external preamplifier (29). A 75-mm-focal-length lens focused the emission light onto the silicon photomultipliers (SiPMs) with a 605-nm cut-on dichroic mirror (DMLP605; Thorlabs) that separated the emission into two paths. Two filters centered at 570 nm (ET570/20x; Chroma) and 670 nm (ET670/50m; Chroma) were used to detect the fluorescence from different FISH-labeled cells with Cy3 or Cy5, which can be efficiently excited by the Stokes beam and the pump beam (for C-D, C-H, or off resonance due to the wide two-photon absorption bandwidth) in SRS, respectively. A data acquisition card (PCIe-6363; National Instruments) collected the final output to construct the images.
+
+Fixed cells were spotted onto a poly-l-lysine–coated coverslip, covered, and sealed by another coverslip with a spacer in between (39). Samples were prepared in this way to reduce cross-phase modulation signal while keeping the sample in the liquid environment that matches the refractive index of the water objective used for imaging. For imaging in the dry conditions, fixed cells were spotted onto a poly-l-lysine–coated coverslip, dried, and then covered by another coverslip with spacers at two opposite sides. For each sample, three FOVs were scanned by a motorized stage or manually for SRS-FISH analysis. Three channels of SRS images (C-D, C-H, and off resonance) and two fluorescence images (Cy3 and Cy5) were collected as a full image set for analyzing two populations targeted with FISH. Although fluorescence images could be acquired simultaneously with stimulated Raman scattering-carbon-deuterium bond by splitting the output beam in the forward direction or collecting epifluorescence signal, limitations in the data acquisition card do not provide higher sampling speed for multichannel sampling. So, all the images were acquired sequentially. Each FOV was 42.82 or 85.62
+μm
+2
+with 214 nm per step and covered around
+∼
+300 to 400 cells or
+∼
+1,200 to 1,600 cells. Depending on the signal intensity level, 10-µs pixel dwell time with
+∼
+1 to 10 frames average was applied for either SRS or fluorescence images. The laser wavelength tuning and stabilizing time for changing between different SRS frames was around 10 s. The throughput of SRS-FISH analysis is around 10 to 100 ms per cell (
+∼
+10 to 100 cells per second) by taking into account the FOV moving time and laser wavelength switching time. For the microbiome test of three individuals’ samples in eight different conditions, three randomly selected FOVs were measured, which totally covered around 30,000 cells.
+
+After all images were acquired as described in the last section (SI Appendix, Fig. S4, step 1), the illumination correction was applied to alleviate the uneven illumination causing intensity variation (SI Appendix, Fig. S4, step 2). Subsequently, SRS images were subtracted by the mean background intensity to eliminate the signal from the glass substrate (SI Appendix, Fig. S4, step 3). Three channels were rescaled according to the DC readout from the photodiode connected to the resonant amplifier circuit (SI Appendix, Fig. S4, step 4). The AC and DC signals were linear to the pump power within the power range used in this experiment. After that, the signal intensities from the off-resonance channels were subtracted from the rescaled C-D and C-H intensities, which eliminated the other pump probe background (SI Appendix, Fig. S4, step 5). Then, the
+%
+CD
+SRS
+images were calculated (SI Appendix, Fig. S4, step 6). Owing to the not perfect pixel by pixel off-resonance subtraction, resulting in overcorrection, and the dominance of Ioff at low C-D signal intensities, some bacteria with low D content exhibited negative
+%
+CD
+SRS
+values (SI Appendix, SI Text). Fluorescence images acquired in the dry conditions were aligned to SRS images acquired after water immersion to reduce the mask measurement error from sample drift caused by water immersion (SI Appendix, Fig. S4, step 7). C-H channels or fluorescence channels were used to generate the single-cell measuring masks depending on the need and availability of the fluorescence images (SI Appendix, Fig. S4, steps 8 and 9). The created masks enabled the measurement of single-cell average
+%
+CD
+SRS
+values of masked cells (SI Appendix, Fig. S4, step 10). By calculating the ratio between the number of bacteria in each FISH channel and in C-H channel, we quantified the percentage of FISH-stained cells per labeling condition for each probe under different sugar amendment conditions (Fig. 4 F and G). All imaging and statistical analyses were performed with CellProfiler and MATLAB (The MathWorks).
+
+Fixed cells (100
+μL
+) were pelleted at 14,000 × g for 10 min, resuspended in 100
+μL
+96% analytical grade ethanol, and incubated for 1 min at room temperature for dehydration. Subsequently, the samples were centrifuged at 14,000 × g for 5 min, the ethanol was removed, and the cell pellet was air-dried. Cells were hybridized in solution (100
+μL
+) for 3 h at 46
+∘
+C. The hybridization buffer consisted of 900 mM NaCl, 20 mM Tris-(hydroxymethyl)-amino methane HCl, 1 mM ethylenediamine tetraacetic acid, and 0.01% sodium dodecyl sulphate and contained 100 ng of the respective fluorescently labeled oligonucleotide as well as the required formamide concentration to obtain stringent conditions (SI Appendix, Table S1). After hybridization, samples were immediately transferred into a centrifuge with a rotor preheated at 46
+∘
+C and centrifuged at 14,000 ×g for 15 min at the maximum allowed temperature (40
+∘
+C) to minimize unspecific probe binding. Samples were washed in a buffer of appropriate stringency (91) for 15 min at 48
+∘
+C, and cells were centrifuged for 15 min at 14,000 × g and finally, resuspended in 20
+μL
+of phosphate buffered saline. Cells (5
+μL
+) were spotted on poly-l-lysine–coated cover glasses (no. 1.5H; thickness of 170 ± 5 μm; Paul Marienfeld EN) and allowed to dry overnight at 4
+∘
+C protected from light. Excess of salt was removed by dipping the coverslips two times in ice-cold Milli-Q water, and they were allowed to dry at room temperature protected from light.
+
+The growth and labeling of microbial pure cultures, microbiome incubations, and other methods are in SI Appendix, SI Methods.
+
+The authors declare no competing interest.
+
+This article is a PNAS Direct Submission.
+
+This article contains supporting information online at https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.2203519119/-/DCSupplemental.
+
+The 16S rRNA gene sequences data have been deposited in the National Center for Biotechnology Information (NCBI) Sequence Read Archive (accession no. PRJNA802995). CellProfiler pipelines and Matlab codes have been deposited in GitHub (https://github.com/buchenglab/srs-fish). All other data are included in the article and/or SI Appendix.
+

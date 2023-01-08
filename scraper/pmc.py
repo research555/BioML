@@ -4,17 +4,21 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 from sql.sql import SQL
+from dotenv import load_dotenv
+import os
+from datetime import datetime, timedelta
 
 class ScrapePMC():
 
     def __init__(self):
         self.driver = webdriver.Edge()
         self.sql = SQL()
+        load_dotenv()
 
     def scrape_links(self, url):
         # get the url
         self.driver.get(url)
-        time.sleep(10)
+        time.sleep(20)
 
         # iterate over the search results
         for i in range(871):
@@ -41,7 +45,23 @@ class ScrapePMC():
         self.driver.quit()
 
     def scrape_pubs_from_db(self):
-        paragraphs = self.driver.find_elements(By.CLASS_NAME, 'p')
-        for index, paragraph in enumerate(paragraphs):
-            print(paragraph.text, index)
+        exc = 'SELECT title, link FROM article_links WHERE mined = 0 LIMIT 20000'
+        self.sql.cursor.execute(exc)
+        result = self.sql.cursor.fetchall()  # fetch links and titles from db
+
+        for index, (title, url) in enumerate(result):
+            start = datetime.now()
+            self.driver.get(url)
+            paragraphs = [paragraph.text for paragraph in self.driver.find_elements(By.CLASS_NAME, 'p')]
+            print(len(paragraphs))
+            with open(rf'{os.getenv("PUB_TXT_PATH")}/pub{index}.txt', mode='w', encoding='utf-8') as f:
+                f.write(f'{title}\n\n')
+                for paragraph in paragraphs:
+                    f.write(f'{paragraph}\n\n')
+                exc = 'UPDATE article_links SET mined = 1 WHERE link = %s'
+                self.sql.cursor.execute(exc, (url,))
+                self.sql.mydb.commit()
+            end = datetime.now()
+            print(f'publication {index} out of 20,000 has been mined. Remaining time  in seconds is:')
+            print((end - start) * (20000 - index))
 

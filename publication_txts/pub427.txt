@@ -1,0 +1,85 @@
+Gut microbiome in acute pancreatitis: A review based on current literature
+
+
+
+
+
+The gut microbiome is a complex microbial community, recognized for its potential role in physiology, health, and disease. The available evidence supports the role of gut dysbiosis in pancreatic disorders, including acute pancreatitis (AP). In AP, the presence of gut barrier damage resulting in increased mucosal permeability may lead to translocation of intestinal bacteria, necrosis of pancreatic and peripancreatic tissue, and infection, often accompanied by multiple organ dysfunction syndrome. Preserving gut microbial homeostasis may reduce the systemic effects of AP. A growing body of evidence suggests the possible involvement of the gut microbiome in various pancreatic diseases, including AP. This review discusses the possible role of the gut microbiome in AP. It highlights AP treatment and supplementation with prebiotics, synbiotics, and probiotics to maintain gastrointestinal microbial balance and effectively reduce hospitalization, morbidity and mortality in an early phase. It also addresses novel therapeutic areas in the gut microbiome, personalized treatment, and provides a roadmap of human microbial contributions to AP that have potential clinical benefit.
+
+Core Tip: We live in a world of microbes. There is a distinct microbiome sighted in every niche of our body. This review is based on current knowledge to define an overview of how the gut microbiota has accelerated the frontiers of understanding recently and empowered its importance in influencing human physiology through its potential role in various diseases. It further explores the possible application of microbiota-targeted therapeutics in routine clinical practice, meaning manipulating gut microbiota into the current therapeutics to minimize the potential risk of various diseases, including acute pancreatitis.
+
+Recent research has confirmed the importance of the human gut microbiota in maintaining health and its involvement in disease. The human gastrointestinal (GI) tract harbors a diverse microbial population of more than 1014 microorganisms, comprising more bacterial cells than human body cells[1] and more than 3.3 million unique genes[2]. The predominant commensal bacteria in the human GI tract are members of the phyla Firmicutes and Bacteroidetes, constituting 80%–90% of the total gut microbiota[3]. Other phyla include Proteobacteria, Actinomyces, Actinobacteria, Fusobacteria, and Verrucomicrobia[4]. The composition of the gut microbiome plays a key role in modulating human immune responses to invasive pathogens, and it also prevents the pathogens from crossing the intestinal barrier[5].
+
+In AP, hypovolemia, reflex splanchnic vasoconstriction, intestinal ischemia, and reperfusion injury due to fluid resuscitation may result in bacterial translocation [25,26]. Systemic inflammatory response syndrome accompanied by intestinal bacterial translocation is associated with high AP mortality[26]. A change in gut permeability/motility that causes bacterial translocation and leads to the activation of gut-associated lymphoid tissues may result in systemic complications in AP[27]. This review summarizes relevant human and animal studies that provide insights into the potential role of the gut microbiome in AP pathogenesis. It also summarizes treatment perspectives that target the gut microbiome.
+
+Previous studies of microbiome involvement in AP described a complex cascade of events with significant involvement of pancreatic acinar cells, but the mechanisms involved in the initiation of AP are still poorly understood[28]. Development of a well-defined clinical management protocol is challenging. Most investigations of AP pathophysiology have documented injury or disruption of the pancreatic acini that triggered the activation of pancreatic enzymes (trypsin, chymotrypsin, and elastase) in pancreatic tissue. Activated proteases (trypsin and elastase) and lipase breakdown tissue and cell membranes, leading to edema, vascular damage, hemorrhage, and necrosis[28].
+
+Recent epidemiological studies have shown that a local inflammatory response aggravates pancreatitis by increasing permeability, which damages the microcirculation and results in local hemorrhage and pancreatic necrosis in cases of severe AP. Some of the inflammatory mediators released by neutrophils aggravate pancreatic injury by activating pancreatic enzymes (see Figure
+1)[26,30]. Figure
+1 is a schematic description of AP pathogenesis. The acinar cells of the pancreas cause trypsin activation followed by impairment of cell membrane trafficking and activation of the zymogen cascade mediated by trypsin. Attraction and activation of leukocytes occur with the release of pro- and anti-inflammatory cytokines and chemokines. Overt, sustained activation of proinflammatory mediators leads to systemic inflammatory response syndrome (SIRS) and may progress to multiorgan failure, infection, pancreatic necrosis, and sepsis as late complications of AP.
+
+Approximately 15%–25% of patients diagnosed with AP may progress to severe AP. The 2012 revised Atlanta classiﬁcation and deﬁnitions by international consensus include three degrees of AP severity (i.e. mild, moderately severe, and severe)[31]. The three degrees primarily manifest as transient organ failure, persistent organ dysfunction, and local or systemic AP[31]. The determinant-based classification of AP is highly dependent on clinical data, and also on the available feedback from patients (to a lesser extent)[32]. Table
+1 summarizes both the Atlanta and determinant-based classifications.
+
+AP: Acute pancreatitis; DBCAPS: Determinant-based classification of acute pancreatitis severity; RACA: Revised Atlanta classification. Persistent organ failure is defined by a modified Marshal score or a sepsis-related organ failure assessment score.
+
+The initial diagnosis of AP made on arrival at a clinic or hospital relies on known medical history, comprehensive physical examination, and increased serum amylase or lipase, with or without additional imaging evaluation. Currently, there are no specific laboratory tests with consistent accuracy and reliability for predicting AP severity. However, several scoring systems are available and are routinely used by hospital physicians to predict AP severity and prognosis (Table
+2)[33-41].
+
+In addition to the various clinical scoring systems, several biomarkers have also been applied as predictors of AP severity and are shown in Table
+3[42-47].
+
+Recently, circular microRNAs have been studied as potential diagnostic biomarkers in AP because of their specific properties, such as stability in biological fluids, simple identification, and sequence conservation among different species (Table
+4)[48-60].
+
+ALI: Acute lung injury; AP: Acute pancreatitis; HTG-AP: Hypertriglyceridemic-acute pancreatitis; mi: Micro.
+
+The human GI tract is home to a diverse and complex microbial community of bacteria, viruses, and fungi that help to maintain health and are involved in the pathogenesis of various diseases. The gut contains at least 1000 bacterial species and 100-fold more genes than have been identified in the human genome[4,61]. The microbiome is considered a hidden “metabolic organ”, and it has a significant impact on well-being because of its influence on our metabolism, physiology, nutrition, and immune function[62]. It has been shown that the gut microbiome co-evolves with us; hence, any changes to the microbial community can have significant consequences, both beneficial and harmful[63]. Disruption of the gut microbiota, or dysbiosis, has been associated with diverse systematic conditions, such as obesity[64,65], malnutrition[66], diabetes[67], and chronic inflammatory diseases, such as inflammatory bowel disease, ulcerative colitis, and Crohn's disease[68].
+
+In brief, the pancreas-gut communication has been described as being in AP, with bacterial translocation as a possible consequence and the homeostatic host response noted. Translocation of bacteria from the lower gastrointestinal tract occurs via the portal circulation - the oral course and/or the mesenteric lymph nodes. The acinar cells of the pancreas secrete pancreatic antimicrobial peptides (AMPs). AMPs have homeostatic bidirectional communication with the gastrointestinal tract[79]. The lower level of the microbiome in the gastrointestinal tract may increase pancreatic antimicrobial peptide production by short-chain fatty acid metabolites. Consequently, it induces a pancreatic immunoregulatory environment which decreases proinflammatory immune cells. Conversely, decreased antimicrobial peptide production facilitates the overgrowth of the gastrointestinal microbiota leading to the induction of proinflammatory immune cells. Thus, it subsequently alters the gut microbiome and the intestinal immune system[79].
+
+Metagenomics and next-generation sequencing have facilitated the investigation of the involvement of the gut microbiome in human physiology and various diseases. The findings have allowed for consideration of the gut microbiome as a hidden organ[80]. The close interaction of the gut microbiome with host physiology can account for the harmful effects of disruptions in the former caused by various internal or external events that initiate inflammatory conditions and some types of cancer. Therefore, it is essential that specific microbial signals maintain the host immune response and other physiological functions that protect against pathogens[81].
+
+NA: Not available. ↑: Higher level; ↓: Lower level.
+
+MAP: Mild acute pancreatitis; MSAP: Moderately severe acute pancreatitis; NA: Not available; SAP: Severe acute pancreatitis; ↑: Higher level; ↓: Lower level.
+
+Changes in the gut microbiota in AP include overexpression of opportunistic pathogens, such as Escherichia/Shigella, and reduced abundance of beneﬁcial genera, such as Biﬁdobacterium[69]. It has been hypothesized that a reduction of beneficial bacteria might facilitate microbial translocation across a damaged gut barrier, thereby promoting the progression of AP. Studies performed by Li et al[75] and other investigators[93,94] found that dysbiosis that included the depletion of short-chain fatty acid-producing bacteria was associated with an impaired gut barrier and worsening of AP. Changes in the gut microbiome may thus serve as a diagnostic tool in AP. Restoring gut microbiota homeostasis and stabilizing the gut barrier might have therapeutic value in AP patients, as shown in Figure
+2[21,30,69,75,87,93,94]. The overall literature suggests that there is an association between the gut microbiome and the severity of AP[95]. Additionally, in experimental acute pancreatitis, changes to the gut microbiome, e.g., administration of Clostridium butyricum can suppress AP[27] pointing to the therapeutic potential of this approach is promising.
+
+In the past decade, substantial advancements have been made not only in understanding the pathophysiology of AP but also in treatment strategies and multidisciplinary management. Necrotizing pancreatitis occurs in about 30% of patients and has a poor prognosis and high mortality. About 80% of AP deaths are caused by infections secondary to AP that might be attributable to gut translocation of intestinal bacteria[82,96]. Current guidelines recommend against routine antibiotic prophylaxis in AP[97]. Recent studies did not find benefits of antibiotic prophylaxis in reducing AP mortality, infections not involving the pancreas, or surgical interventions. The data on infections accompanying pancreatic necrosis in adults are conflicting[98,99].
+
+Injury of the GI barrier is a key event in the development of AP. Few studies have reported prevention of disruption of the intestinal barrier with modulation of gut microbiome balance. In one such study conducted in a mouse model of AP, Clostridium butyricum, a producer of small-chain fatty acids, which have immunomodulatory properties, reduced infiltration of neutrophils and dendritic cells in the pancreas and inhibited inflammatory responses mediated by NLRP3 and TLR4 signaling pathways in the pancreas and colon[27]. In summary, probiotics help to maintain gut homeostasis. Research should improve the designs of future studies, for example, by detecting a peculiar strain of microorganisms (i.e., their type), standardizing the dose and duration of treatment, or standardizing the state of disease progression when considering to use in current therapy scenarios.
+
+The gut microbiome plays a significant role in health and diseases. The resident microbiota in the human GI tract influences host metabolism, physiology, and immune system development. Disruption of this bacterial community results in GI disease. Ongoing medical and clinical research has produced a substantial body of evidence of a clear correlation between changes in the commensal microbiota and the occurrence of pancreatic disease. Application of biochemical, microbiological, and molecular biological methods have provided a description of the constituents of the gut microbiome in health and disease, their niches, and their physiological roles. Additional study is needed to explain whether microbial dysbiosis is a cause or an effect of diverse pathologies. The microbiome profile and changes in dysbiosis may influence an increase in AP severity during its clinical course.
+
+The mechanisms of gut dysbiosis and the etiology of AP are not yet fully understood. The relationship of GI microbial symbiosis and AP are avenues for further research. The concomitant use of probiotics and antibiotics together with conventional treatment, such as surgery, radiotherapy, chemotherapy and targeted therapies, are further areas for research. In summary, the clinical significance of GI homeostasis during AP is emerging step by step. Thus, restoring the homeostasis of gut microbiota and stabilizing the gut barrier could be a promising therapeutic target in preventing AP progression. Challenges and specific problems that stand in the way to developing a research platform for understanding AP and its interaction with the microbiome need to be overcome. This review has explored the role of the gut microbiome in AP and the targeted use of probiotics, prebiotics, and synbiotics to maintain or restore GI microbial balance.
+
+Conflict-of-interest statement: The authors declare having no conflicts of interest.
+
+Manuscript source: Unsolicited manuscript
+
+Peer-review started: April 12, 2021
+
+First decision: May 24, 2021
+
+Article in press: June 23, 2021
+
+Specialty type: Gastroenterology and hepatology
+
+Country/Territory of origin: Singapore
+
+Peer-review report’s scientific quality classification
+
+Grade A (Excellent): 0
+
+Grade B (Very good): B, B
+
+Grade C (Good): 0
+
+Grade D (Fair): 0
+
+Grade E (Poor): 0
+
+P-Reviewer: Sikiric P, Song B S-Editor: Ma YJ L-Editor: A P-Editor: Liu JH
+

@@ -1,0 +1,88 @@
+Determining the association between fibromyalgia, the gut microbiome and its biomarkers: A systematic review
+
+The association between fibromyalgia and irritable bowel syndrome is well-established. Alterations in the composition and diversity of the gut microbiome in irritable bowel syndrome have been reported, however, this association is poorly understood in fibromyalgia.
+
+Our aim was to summarise the research reporting on the gastrointestinal microbiome and its biomarkers in people with fibromyalgia.
+
+A systematic review of published original research reporting on the gastrointestinal microbiota and its biomarkers in adults with a diagnosis of fibromyalgia was undertaken.
+
+From 4771 studies, 11 met our inclusion criteria and were separated into four main groups: papers reporting Helicobacter pylori; other gut bacterial markers; metabolomics and other biomarkers, which included intestinal permeability and small intestinal bacterial overgrowth.
+
+The results suggest there is a paucity of quality research in this area, with indications that the gut microbiota may play a role in fibromyalgia within the emerging field of the gut-musculoskeletal axis. Further investigations into the relationship between the gut microbiota, gut dysfunction and fibromyalgia are warranted.
+
+It has been almost half-century since the term fibromyalgia replaced fibrositis [1], yet the condition remains idiopathic, poorly understood and difficult to treat [2]. Its cardinal symptom is pain, which must be both widespread and chronic to meet the current diagnostic criteria.
+
+The aim of this systematic review was to examine and summarise the research reporting on the composition and diversity of the gut microbiome and associated biomarkers in adults with fibromyalgia.
+
+This review was registered with PROSPERO (https://www.crd.york.ac.uk/PROSPERO/). [registration number pending].
+
+A search of Medline, CINAHL, Embase and Web of Science databases was made using the terms in Table 1, conducted over 06–08 August 2019. Results were exported into EndNote X9.2 (Thomson Reuters Inc., Philadelphia, PA, USA.) and duplicate records deleted.
+
+Further screening to remove conference abstracts, studies involving children (< 18 years of age), animals, reviews, case reports or papers irrelevant to our objectives. Full-text articles were retrieved and linked to the corresponding EndNote record. Reference lists of included articles were reviewed for other studies relevant to our objectives. Articles were scanned for diagnostic criteria used; those not specifying accepted guidelines for diagnosis were excluded. We also excluded papers reporting systemic biomarkers not evaluated in the context of gastrointestinal symptoms or gut flora.
+
+The selection process is presented in Fig. 1, utilising the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) flow diagram [15].
+
+The following data was extracted to a Microsoft® Excel® spreadsheet: lead author, year, country of publication, gender and age of cohort, diagnostic criteria used for fibromyalgia, bacteria or biomarker thereof reported, summary of results.
+
+All studies were reviewed by two authors (SE and JEH) who screened for inclusion criteria and conducted a quality assessment using the Joanna Briggs critical appraisal tool “Checklist for case-control studies” [16], with additional quality criterion including: diagnostic criteria used to identify fibromyalgia, the description of cohort/s, and evidence that ethics/consent had been granted, giving a total of 16 criteria for evaluation. Scores were then converted to percentages for reporting.
+
+A total of 4771 articles were retrieved. The PRISMA flow diagram (Fig.
+1) shows the selection process and number of studies included and excluded at each step to arrive at the final eleven studies, conducted in 7 countries, included in this analysis. There was a high degree of heterogeneity across the studies, which were of variable quality (Table 2).
+
+A summary of the key information of the 11 included articles is presented in Table
+2.
+
+Table 3 details results of five studies evaluating H. pylori in patients with fibromyalgia.
+
+Biopsy results from Rodrigo’s study also revealed significantly higher rates of intraepithelial lymphocytosis (IEL) (Marsh stage 1) and villous atrophy (Marsh stage 3) in the group with fibromyalgia plus IBS, compared to the IBS-only group (56% vs 16 and 7% vs 2%, respectively), (both p < 0.001). As a result of this investigation, seven of the 104 patients with fibromyalgia were subsequently diagnosed with coeliac disease [22].
+
+Four studies are included in this group, as presented in Table 4. In addition to serum antibodies to two gut-specific organisms, Goebel et al., [19] assessed results against measures of intestinal permeability (IP) (see Table 6). Three studies evaluated the microbial composition of faecal specimens, however, all employed different methodology.
+
+The urinary microbial metabolism data reported in two of the studies included in this review were obtained from the same cohort [24, 25]. Two other studies evaluated serum markers for a range of metabolites, proteins and gene expression [26, 27], and three compared patients with more than one type of control [24, 25, 27]. These are summarised in Table 5.
+
+Clos-Garcia et al. [26] also concluded that some of the altered metabolites, as well as both up- and down-stream products, may be bacterial in origin.
+
+Three studies [17–19] outlined in Table
+6, evaluated markers not included in the groups above. In Michalsen’s study [18], fibromyalgia and rheumatoid arthritis patients were allocated into two separate arms, each of which undertook a different dietary intervention (either a Mediterranean diet or fasting).
+
+Both small intestinal and gastroduodenal permeability was evaluated in Goebel’s study [19] employing lactulose-mannitol recovery testing. Follow-up data collected in the week after testing, while not available for all participants, revealed 2 days of moderate-to-severe diarrhoea in 13 of the 31 subjects.
+
+Studies exploring the relationship between H. pylori and fibromyalgia were conflicting. Akkaya’s study found no differences in regards to any of the clinical features evaluated [20], whereas Olama et al., described significant associations between H. pylori immunoglobulin-G (IgG) -positive patients and disease markers, including: post-exertion pain, morning stiffness, confusion, mood, tension headache, sleep disturbance, dyscognition, changes in appetite and fatigue (all p < 0.05) [21]. Gezici’s group reported a significant reduction in pain, as evaluated by the number of tender points, following H. pylori eradication (p < 0.001) [23].
+
+Pain scores correlated significantly with both peak and AUC hydrogen gas production (r = 0.42, p < 0.01 and r = 0.37, p < 0.05) on breath testing by Pimentel’s group [17]. Treatment of SIBO resulted in significant reductions in pain (p < 0.05). A non-significant improvement in clinical measures was described in those patients following the fasting regime in Michalsen’s study [18], and Goebel reported no association between IP and the pain of either chronic regional pain syndrome (CRPS) or fibromyalgia [19].
+
+We set out to systematically evaluate the literature reporting data associated with the gut microbiota in people with fibromyalgia. The review identified five broad areas of research, but to date no single gut-fibromyalgia biomarker has been validated. Some studies demonstrated variability in markers associated with the gut microbiota in patients with fibromyalgia compared to healthy controls [24].
+
+A wide range of research methods were detected and lack of control for factors which may impact the biomarkers being investigated was common. This included failure to measure dietary patterns, smoking and drug use. Importantly, of the included studies that evaluated the composition of the gut microbiome, the methods used were different, making comparisons problematic. Some statistically significant differences were reported, but due to the high degree of variability in both the methods and markers evaluated, and the presence of important confounding factors, it is difficult to draw any strong conclusions.
+
+While several papers reported a relationship between H. pylori and fibromyalgia the results are inconsistent. This is probably due to a combination of different identification methods and potential confounders, such as the retention of patients in the control group with CRPS who met fibromyalgia criteria [19].
+
+In summary, the studies provide weak evidence that H. pylori may play a role in the symptomology of fibromyalgia, and while the exact relationship is uncertain, the improvement seen in pain scores just 3 weeks after antibiotic treatment of H. pylori [23] warrants a systematic and rigourous investigation.
+
+With rapid developments in microbiome technology over the last two decades, it is not surprising our review identified a diverse set of methodological approaches employed in the assessment of antimicrobial communities. In 2005, bacterial culture was the accepted procedure as DNA sequencing was in its infancy.
+
+The understanding of the wide-reaching role of gut bacteria in a plethora of metabolic processes and health conditions has advanced significantly in recent years. The advent of deep sequencing of the microbiome has enabled a new era of discovery which is rapidly evolving. Due to the limited number of studies evaluating the composition of the gastrointestinal microbiota in our results, the heterogeneity of techniques used, variance in findings, and issues around drug use, it is difficult to draw any firm conclusions regarding microbiome alterations in this patient population. This Pandora’s box is of intricate complexity [50], such that meaningful results would possibly be best obtained by studying these factors in a much larger, drug-naïve cohort. To date, no extensive analysis has been undertaken to simultaneously evaluate the composition of the gastrointestinal tract microbiota, its metabolites, luminal neurotransmitters and brain neurochemistry in people with fibromyalgia. Future studies should consider such analyses.
+
+Several variations in metabolomic markers suggest altered microbial metabolism, but these are not consistent across the studies. The previously identified problems regarding the impact of drug intake and different dietary patterns in the patient populations confounds results.
+
+The overall diversity of gut microbiota, various influences on it and the resultant metabolites within any one population group present significant research challenges. The per os intake of any substrate or metabolite may increase populations of any organism able to consume it [42], and as such, measures of metabolites only give part of the picture. The use of both metagenomics and metatranscriptonomics in future studies may illuminate this issue.
+
+Goebel et al’s findings suggesting increased IP in both fibromyalgia and CRPS should be interpreted with caution [19]. The study protocol permitted participants to take non-steroidal anti-inflammatory drugs (NSAIDs) up to 48 h before and aspirin until commencing the study. Use of both these agents is associated with increased IP [58, 59]. Accordingly, higher levels of IP could reasonably be expected to occur secondary to use of the medications, but neither actual drug intake relative to test commencement, nor other factors known to be associated with altered IP were reported. Furthermore, Goebel’s study solution contained 10 g lactulose, 5 g mannitol and 20 g sucrose, and as a solution containing a much lower dose of lactulose and mannitol (5 g and 1 g respectively) can arrive in the colon within 2 h [60], the reliability of prediction of small intestinal permeability within this time-frame requires further investigation. Notably absent was a discussion about diarrhoea reported in fibromyalgia patients following this test [19], which could be related to osmotic effects of the saccharide load, or fermentation of same by bacteria. While a recent systematic review found relationships between increased IP and several chronic conditions [61], the validity of sugar-recovery tests as measures of IP and the applicability of increased IP to aberrations in human health beyond CD and inflammatory bowel diseases remains uncertain [62].
+
+We commented previously on succinate, one of the metabolites contributing to differentiation of fibromyalgics and healthy controls, reported by Malatji (2017) [24]. Additionally, elevated circulating succinate [24] has been reported in patients with SIBO [63], IBS [64] H. pylori infection [65] and is associated with increased IP [66], indicating a gut-mediated inflammatory process. Whether any of these connections can be made for fibromyalgia patients with increased IP requires investigation.
+
+The association between a positive hydrogen breath test and fibromyalgia [17] (Table
+5), should be interpreted within the context of the limitations of the test, testing procedures and diagnostic criteria used. The authors regarded a normal breath test as having no rise in hydrogen or methane before 90 min of administration of lactulose, with “a definitive rise never more than 20 ppm” over 3 h of testing. Accordingly, most subjects would be expected to meet SIBO criteria, as lactulose is expected to initiate fermentation on arrival in the colon, which typically occurs within 100 mins [67]. Current criteria specify a diagnostic rise should occur before 90 min [68]. While hydrogen and methane were both measured in Pimentel’s 2004 study [17], test data was not tabulated and only hydrogen results were presented and discussed.
+
+Fibromyalgics present with constipation at up to double the rate of those with diarrhoea [11, 70], which correlates with severity of fibromyalgia symptoms [70]. Constipation is associated with higher methane production [71], yet both Pimentel’s studies reported elevations in hydrogen gas [17, 69]. Despite the 2004 study being remarkable for its 100% detection rate of SIBO in fibromyalgics, to our knowledge no further studies have confirmed this relationship.
+
+A significant strength of this review is our requirement for clear and accepted criteria for the diagnosis of fibromyalgia. However, methodical differences, inconsistency in the testing methods used, inappropriate drug use and the inclusion of controls with diseases that were unaccounted pose limitations to our findings.
+
+Despite these limitations and the heterogeneity of the studies included, preliminary findings suggest that gastrointestinal microbiome-targeted interventions may improve clinical and/or laboratory measures related to the symptoms of fibromyalgia.
+
+The findings of this review suggest the relationship between the gut microbiome and the pathophysiology of fibromyalgia is a largely underexplored area. Despite the limitations of the included studies, there are several indications that associations between the composition and metabolism of the gastrointestinal microbiota and fibromyalgia may exist. As such, well-designed studies that employ the latest technology and accepted diagnostic testing practices while accounting for confounding factors are warranted.
+
+Publisher’s Note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+

@@ -1,0 +1,2 @@
+A 3-dimensional mathematical model of microbial proliferation that generates the characteristic cumulative relative abundance distributions in gut microbiomes
+

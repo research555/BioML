@@ -1,0 +1,2 @@
+Metagenomic strain detection with SameStr: identification of a persisting core gut microbiota transferable by fecal transplantation
+

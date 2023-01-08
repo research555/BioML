@@ -1,0 +1,205 @@
+A predictive index for health status using species-level gut microbiome profiling
+
+Providing insight into one’s health status from a gut microbiome sample is an important clinical goal in current human microbiome research. Herein, we introduce the Gut Microbiome Health Index (GMHI), a biologically-interpretable mathematical formula for predicting the likelihood of disease independent of the clinical diagnosis. GMHI is formulated upon 50 microbial species associated with healthy gut ecosystems. These species are identified through a multi-study, integrative analysis on 4347 human stool metagenomes from 34 published studies across healthy and 12 different nonhealthy conditions, i.e., disease or abnormal bodyweight. When demonstrated on our population-scale meta-dataset, GMHI is the most robust and consistent predictor of disease presence (or absence) compared to α-diversity indices. Validation on 679 samples from 9 additional studies results in a balanced accuracy of 73.7% in distinguishing healthy from non-healthy groups. Our findings suggest that gut taxonomic signatures can predict health status, and highlight how data sharing efforts can provide broadly applicable discoveries.
+
+Recent advances in the field of human gut microbiome research have revealed significant associations and potential mechanistic insights regarding a vast array of complex, chronic diseases, including cancer1,2, auto-immune disease3–5, and metabolic syndrome6–8. Undoubtedly, the many microbiome studies that focused on disease contexts have been essential for elucidating underlying pathophysiological mechanisms, and for developing potential intervention strategies. As researchers uncover more details regarding which gut commensals may play a significant role in host health and disease, a promising translational application of this knowledge would be towards developing analytical tests or quantitative methods that provide indication of one’s health based upon a gut microbiome snapshot9–12.
+
+In this study, we introduce the Gut Microbiome Health Index (GMHI), a robust index for evaluating health status (i.e., degree of presence/absence of diagnosed disease) based on the species-level taxonomic profile of a stool shotgun metagenome (gut microbiome) sample. GMHI determines the likelihood of having a disease, independent of the clinical diagnosis; this is done so by comparing the relative abundances of two sets of microbial species associated with good and adverse health conditions, which are identified from an integrated dataset of 4347 publicly available, human stool metagenomes pooled across multiple studies encompassing various disease states. By applying GMHI to each sample in our population-scale meta-dataset, we found that GMHI distinguishes healthy from nonhealthy groups far better than ecological indices (e.g., Shannon diversity and richness) generally considered as markers for gut health and dysbiosis. Intra-study comparisons of stool metagenomes between healthy and nonhealthy phenotypes demonstrate that GMHI is the most robust and consistent predictor of health. Finally, to confirm that GMHI classification accuracy was not a result of over-fitting on the discovery cohort, we test our approach on a validation set of 679 samples from eight additional published studies and one new cohort (this study). We find that GMHI not only demonstrates strong reproducibility in stratifying healthy and nonhealthy groups, but also outperforms α-diversity indices.
+
+An overview of our multi-study integration approach, wherein we acquired 4347 raw shotgun stool metagenomes (2636 and 1711 metagenomes from healthy and nonhealthy individuals, respectively) from 34 independently published studies, is depicted in Fig. 1a. In this study, “healthy” subjects were defined as those who were reported as not having any overt disease nor adverse symptoms at the time of the original study; alternatively, “nonhealthy” subjects were defined as those who were clinically diagnosed with a specific disease, or determined to have abnormal bodyweight based on body mass index (BMI). Accordingly, 1711 stool metagenomes from patients across 12 different disease or abnormal bodyweight conditions were pooled together into a single aggregate nonhealthy group. (Our sample selection criteria are described in “Methods.” Importantly, all metagenomes were reprocessed uniformly, thereby removing a major nonbiological source of variance among different studies, as previously demonstrated28.) A description of the studies whose human stool metagenomes were collected and processed through our computational pipeline is provided in Table 1. We note that, in order to eventually identify features of the gut microbiome associated exclusively with health, it is important to be disease agnostic by considering a broad range of nonhealthy phenotypes. We provide all subjects’ phenotype, age, sex, BMI, and other questionnaire measures (as provided in their respective original study) in Supplementary Data 1. Along with the additional 679 stool metagenome samples used for validation purposes (discussed below), this study provides the largest metagenomic (pooled) analysis of the human gut microbiome to date, in regards to the number of samples, phenotypes, and studies.
+
+After downloading, reprocessing, and performing quality filtration on all raw metagenomes, species-level taxonomic profiling was carried out using the MetaPhlAn2 pipeline32 (“Methods”). Of note, our study was mainly conducted upon species-level taxonomy information to obtain as much precise and comprehensive information about the gut microbiome as possible. A total of 1201 species were detected in at least one metagenome sample; after removing viruses, and species that were rarely observed or of unknown/unclassified identity (“Methods”), 313 species remained for further analysis (Fig. 1b and Supplementary Data 2; a phylogenetic tree showing the evolutionary relationships among these species is shown in Supplementary Fig. 1). Interestingly, six species (Bacteroides ovatus, Bacteroides uniformis, Bacteroides vulgatus, Faecalibacterium prausnitzii, Ruminococcus obeum, and Ruminococcus torques) were of high prevalence (i.e., detected in >90% of all 4347 samples).
+
+The overall ecology of the gut microbiome has often been associated with host health8,33–35. Using species-level relative abundance (i.e., proportion) profiles, we examined the differences in gut microbial diversity between the healthy and nonhealthy groups. First, when using principal coordinate analysis (PCoA) ordination, we identified a significant difference between the distributions of these two groups (permutational multivariate analysis of variance (PERMANOVA), R2 = 0.02, P < 0.001; Fig. 1c). In the same PCoA plot in which the healthy and 12 nonhealthy phenotypes were presented simultaneously (Fig. 1d), we found only a weak difference among groups (analysis of similarities (ANOSIM) R = 0.21, P = 0.001).
+
+We envision that the most intuitive way to determine how closely one’s microbiome resembles that of a healthy (or nonhealthy) population is to quantify the balance between health-associated microbes relative to disease-associated microbes. Therefore, we propose an index in the form of a rational equation (and thereby yielding a dimensionless quantity) between two sets of microbial species: those that are more frequently observed in healthy compared to nonhealthy groups vs. those that are less frequently observed in healthy compared to nonhealthy groups. Next, we use our compendium of publicly available datasets, which were derived from healthy and nonhealthy human subjects, to identify these two sets of species. Finally, with these species, we tune the parameters of a predefined formula, as well as evaluate its classification accuracy. The logical rationale of each major step during the development, demonstration, and validation of our index for predicting general health status (i.e., presence/absence of diagnosed disease) from a gut microbiome sample is detailed below. In addition, a step-by-step protocol is provided in “Methods.”
+
+We set out to identify distinct microbial species associated with healthy (H) and nonhealthy (N) groups. Here, we use a prevalence-based strategy to deal with the sparse nature of microbiome datasets. For this, we first determine pH,m and pN,m, or the prevalence of microbial species m in H and N, respectively (prevalence is defined as the proportion of samples in a given group wherein m is considered “present,” i.e., relative abundance ≥ 1.0 × 10−5.) Next, for comparing the two prevalences in H and N, we apply the following two criteria: prevalence fold change
+f
+H,N
+m
+and prevalence difference
+d
+H,N
+m
+, defined as
+p
+H,m
+p
+N,m
+and pH,m − pN,m, respectively. A significant effect size between the two prevalences is considered to exist if both criteria satisfy (predetermined) minimum thresholds for prevalence fold change θf and prevalence difference θd (how we determine the best pair of thresholds is described below). For all detectable microbial species that simultaneously satisfy
+f
+H,N
+m
+≥
+θ
+f
+and
+d
+H,N
+m
+≥
+θ
+d
+, we term these species observed more frequently in H (than in N) as “health-prevalent” species MH. Analogously, we identify “health-scarce” species MN, or the species observed less frequently in H (than in N), as those that satisfy
+f
+N,H
+m
+≥
+θ
+f
+and
+d
+N,H
+m
+≥
+θ
+d
+, where
+f
+N,H
+m
+and
+d
+N,H
+m
+is defined as
+p
+N,m
+p
+H,m
+and pN,m − pH,m, respectively. In this regard, the species that are eventually chosen to compose MH and MN are both dependent on θf and θd. An important strength of our prevalence-based strategy for identifying microbial associations is that it does not calculate or compare averages of measurements taken from various sources, which is challenging to justify when biological and technical heterogeneity could vary greatly across independent studies. Rather, our approach compares frequencies of a signal—on a sample-by-sample basis—between two groups, and represents a strategy more applicable to the context of integrating high-throughput data from different studies. Importantly, we chose to simultaneously test two thresholds, rather than one, in order to increase our confidence in the robustness of MH and MN, as well as to overcome biases that can occur from using only one type of threshold.
+
+Having a strategy to identify microbial species associated with healthy (i.e., health-prevalent species MH) and nonhealthy (i.e., health-scarce species MN), we next couple these two species sets with a computational procedure that quantifies the presence/absence of diagnosed disease for any gut microbiome sample. To this end, we developed the following mathematical formula: for species of MH in sample i, their “collective abundance”
+ψ
+M
+H
+,i
+is defined as
+
+The minimum thresholds θf and θd for prevalence fold change and prevalence difference, respectively, are used to control for the number of health-prevalent species MH and health-scarce species MN; species that simultaneously satisfy the two types of thresholds are selected to be included in one of either group. Afterwards, MH and MN is provided as input features for
+ψ
+M
+H
+,i
+and
+ψ
+M
+N
+,i
+, respectively, and for the calculation of
+h
+i,
+M
+H
+,
+M
+N
+, which in turn can classify stool metagenome sample i as healthy (i.e.,
+h
+i,
+M
+H
+,
+M
+N
+>0
+), nonhealthy (i.e.,
+h
+i,
+M
+H
+,
+M
+N
+<0
+), or neither (i.e.,
+h
+i,
+M
+H
+,
+M
+N
+=0
+). Lastly,
+h
+i,
+M
+H
+,
+M
+N
+is tested on all 4347 stool metagenomes in our meta-dataset to find the balanced accuracy
+χ
+M
+H
+,
+M
+N
+, that is, an average of the proportions of healthy and nonhealthy samples that were correctly classified, or
+
+Analogous to the example mentioned above, a positive or negative GMHI allows the sample to be classified as healthy or nonhealthy, respectively; a GMHI of 0 indicates an equal balance of Health-prevalent and Health-scarce species, and thereby classified as neither. Therefore, GMHI is especially favorable in terms of the simplicity of the decision rule and the biological interpretation regarding the two sets of microbes involved in classification. Importantly, our metric can be measured on a per-sample basis, requires very little parameter tuning, and foregoes the use of qualitative assessments, for example, “low” or “high” α-diversity. Furthermore, we found no significant association between library size and GMHI (mixed-effects linear regression, P = 0.45; Supplementary Fig. 5), and that, by and large, the distributions of the index for healthy individuals do not vary much between studies (Supplementary Fig. 6).
+
+To see whether GMHI can encompass certain physiological features of health, we looked for statistical associations between GMHI and well-recognized components of physiological wellness from clinical lab tests. More specifically, we searched for correlations with GMHI and the following, as reported in their original studies: circulating blood concentrations of fasting blood glucose (from 785 subjects), triglycerides (from 915 subjects), total cholesterol (from 521 subjects), low-density lipoprotein cholesterol (LDLC; from 848 subjects), and high-density lipoprotein cholesterol (HDLC; from 841 subjects). Of note, self-reported well-being, treatment regimens, and other questionnaire data were either not provided at all or too sparsely collected to have any practical or statistical significance. When selecting for moderate correlations or better, that is, |Spearman’s ρ| ≥ 0.3 (P < 0.001), we identified HDLC as the only feature that was significantly associated with GMHI (ρ = 0.34, 95% confidence interval (CI): [0.28, 0.40], P = 7.19 × 10−24; Fig. 2a). In addition, we identified significantly higher abundances of HDLC in subjects with positive GMHI compared to those with negative GMHI (Mann–Whitney U test, P = 1.22 × 10−16; Fig. 2b). This moderately positive correlation is encouraging for linking GMHI to actual health, as HDLC in the bloodstream is commonly considered as “good” cholesterol, and could be protective against heart attack and stroke, according to the American Heart Association. In relevance to this point, a recent study by Kenny et al.36 showed that cholesterol metabolism by gut microbes can influence serum cholesterol concentrations, and may thereby impact cardiovascular health. Overall, our finding demonstrates the importance of integrating clinical data with gut microbiome, and also hints at the possibility of GMHI serving as an effective and reliable predictor of cardiovascular health. In contrast, fasting blood glucose (ρ = −0.06, 95% CI: [−0.12, 0.01]), triglycerides (ρ = −0.13, 95% CI: [−0.19, −0.06]), total cholesterol (ρ = 0.15, 95% CI: [0.06, 0.23]), LDLC (ρ = 0.09, 95% CI: [0.03, 0.16]), and even age (ρ = 0.04, 95% CI: [−0.01, 0.08]) were noted to have only weak or no meaningful correlations with GMHI.
+
+We calculated GMHI for each stool metagenome in our meta-dataset of 4347 samples to investigate whether the distributions of GMHI differ between healthy and nonhealthy groups. We found that the gut microbiomes in healthy have significantly higher GMHIs in comparison to gut microbiomes in nonhealthy (Mann–Whitney U test, P = 5.06 × 10−212; Cliff’s Delta effect size = 0.56; Fig. 3a). (Of note, Cliff’s Delta (d) is a nonparametric effect-size measure that quantifies how often one value in one distribution is higher than the values in the second distribution; it is a difference between probabilities, and thus ranges from −1 to +1.) By definition of GMHI, this result reflects the dominant influence of Health-prevalent species over Health-scarce species in the healthy group, and vice versa in the nonhealthy group.
+
+Finally, we investigated for differences in GMHI and in these ecological characteristics between healthy and each of the 12 phenotypes of the nonhealthy group. At the individual phenotype level, the healthy group showed significantly higher GMHI levels in all but 1 (symptomatic atherosclerosis) of the 12 different disease or abnormal bodyweight conditions (Mann–Whitney U test, P < 0.001; Fig. 3e). For Shannon diversity and 80% abundance coverage, we found that only 3 (CD, obesity, and type 2 diabetes) of the 12 nonhealthy phenotypes showed statistically significant differences (Fig. 3f, g); both properties were higher in healthy for all three comparisons. For richness, we found that 8 of the 12 nonhealthy phenotypes were significantly different compared to healthy (Fig. 3h): seven of these eight were of higher richness, whereas one (CD) was of lower richness. Taken together, our results suggest that: (i) healthy and nonhealthy gut microbiomes show distinct ecological characteristics; (ii) GMHI embodies a gut microbiome signature of wellness that is generalizable against various nonhealthy phenotypes; and (iii) GMHI can distinguish healthy from nonhealthy individuals more reliably than Shannon diversity, 80% abundance coverage, and richness.
+
+For increasingly higher (more positive) and lower (more negative) values of GMHI, we observed an increasing proportion of samples from healthy and nonhealthy groups, respectively (Fig. 4a). For example, 98.2% (165 of 168) of metagenome samples with GMHIs >4.0 were from the healthy group; and 81.2% (164 of 202) of metagenome samples with GMHIs <−4.0 were of nonhealthy origin. In addition, the top 10 to 100 healthy and nonhealthy stool metagenome groups (selected based on their GMHIs) clearly clustered apart from each other in PCoA ordination (Supplementary Fig. 7), in stark contrast to the case when all samples were projected simultaneously (Fig. 1c). These observations confirm that very high (or low) collective abundance of Health-prevalent species relative to that of Health-scarce species is strongly connected to being healthy (or nonhealthy).
+
+GMHI and Shannon diversity were compared for each sample to examine their overall concordance. As shown in Fig. 4b, GMHI clearly performed much better in stratifying the healthy and nonhealthy groups compared to Shannon diversity. A small yet significant relationship was found between our metric and this conventional measure of gut health (Spearman’s ρ = 0.17, 95% CI: [0.14, 0.19], P = 1.66 × 10−28). In addition, similar results were seen when GMHI was compared with 80% abundance coverage (Spearman’s ρ = 0.22, 95% CI: [0.19, 0.25], P = 8.48 × 10−48) and with richness (Spearman’s ρ = −0.27, 95% CI: [−0.30, −0.24], P = 4.27 × 10−74) (Supplementary Fig. 8).
+
+We next examined how well GMHI and other features of microbial ecology (i.e., Shannon diversity, 80% abundance coverage, and species richness) could distinguish healthy and nonhealthy phenotypes within individual studies. Specifically, in each of the 12 studies (out of 34 total) wherein at least 10 stool metagenome samples from both case (i.e., disease or abnormal bodyweight conditions) and control (i.e., healthy) subjects were available, we compared GMHI, Shannon diversity, 80% abundance coverage, and species richness between healthy and nonhealthy phenotype(s). By focusing on datasets from individual studies one by one, this approach not only removes a major source of batch effects, but also provides a good means to investigate the robustness of our previously observed trends (when healthy and nonhealthy samples were compared against each other in aggregate groups) across multiple, smaller studies.
+
+Analogous to the analysis above (wherein healthy was compared to each separate nonhealthy phenotype within individual studies), we compared healthy against a general nonhealthy phenotype, in which all disease samples were lumped together, when applicable. Importantly, comparisons were still made within individual studies. We found that there were statistically significant differences in GMHI between cases and controls (Mann–Whitney U test, P < 0.05; Supplementary Table 4) in 6 of the 12 studies. In contrast, we found statistically significant differences in Shannon diversity, 80% abundance coverage, and richness between cases and controls in two, three, and three (of 12) studies, respectively.
+
+Evaluation of any biomarker or molecular signature on independent patient samples is the gold standard for assessing its robustness15. To confirm the reproducibility of our prediction results in stratifying healthy and nonhealthy phenotypes (Fig. 3), we leveraged GMHI to predict the health status of 679 individuals whose stool metagenome samples were not part of the original formulation of GMHI. For this, we used gut microbiome data from an additional eight published studies (Supplementary Table 5), which include stool metagenomes from healthy subjects and patients with ankylosing spondylitis (AS), colorectal adenoma, colorectal cancer, Crohn’s disease (CD), liver cirrhosis (LC), and nonalcoholic fatty liver disease (NAFLD). In addition, we utilized our extensive biobank of stool collections to gather our own set of samples from patients with rheumatoid arthritis (RA) (“Methods”; see Supplementary Data 4 for subject meta-data relating to both clinical and nonclinical factors). All metagenome samples in this validation dataset were pooled into one of two groups (i.e., healthy or nonhealthy), as demonstrated above.
+
+To investigate GMHI performances on the validation cohort more closely, we examined the 12 total sub-cohorts (defined per unique phenotype per individual study) ranging across eight healthy and nonhealthy phenotypes from eight additional published studies and one newly sequenced batch. As shown in Fig. 6b, all three healthy sub-cohorts were found to have significantly higher distributions of GMHI than seven (of nine) nonhealthy phenotype sub-cohorts (Mann–Whitney U test, P < 0.01; see Supplementary Table 9 for Cliff’s Deltas). The classification accuracies for these three healthy sub-cohorts were 87.5% (28 of 32), 74.1% (43 of 58), and 71.4% (20 of 28); alternatively, the classification accuracies for the nonhealthy phenotype sub-cohorts were the following: 94.5% (155 of 164) for LC; 75.6% (65 of 86) for NAFLD; 73.3% (11 of 15) for CD; 67.3% (33 of 49) for RA; 55.7% (54 of 97) for AS; 37.0% (10 of 27) for CA; and 77.5% (31 of 40), 47.5% (29 of 61), and 27.3% (6 of 22) for three different cohorts of CC. Strikingly, GMHI performed well (>75.0%) in predicting adverse health for LC and NAFLD, although stool metagenomes from patients with liver disease were not part of the original discovery cohort. This finding suggests that GMHI could be applied beyond the original 12 phenotypes (of the nonhealthy group) used during the index training process. Overall, the strong reproducibility of GMHI implies that the highly diverse and complex features of gut microbiome dysbiosis implicated in pathogenesis were reasonably well captured during the dataset integration and original formulation of GMHI. Thereby, our results support previous findings by Duvallet et al.26 in regards to the presence of a generalized disease-associated gut microbial signature, which was observed to be shared across multiple studies and pathologies. Finally, from similar analyses for Shannon diversity, 80% abundance coverage, and species richness on the validation cohort, we were able to conclude that GMHI is the most accurate, robust, and clinically meaningful classifier compared to these other ecological characteristics (Supplementary Note 2 and Supplementary Fig. 9).
+
+In this study, we present the GMHI, a simple and biologically interpretable metric to quantify the likelihood of disease presence from a gut microbiome sample. At first, we envisioned that the most intuitive way to determine how closely one’s microbiome resembles that of a healthy (or nonhealthy) population is to compare the collective abundances of Health-prevalent and of Health-scarce species. By pooling massive amounts of publicly available data (4347 publicly available, shotgun metagenomic data of gut microbiomes from 34 published studies), we identified a small consortium of 50 microbial species associated with human health to serve as features for our classification model: 7 and 43 species were prevalent and scarce, respectively, in the healthy group compared to the nonhealthy group. In regards to classification accuracy, GMHI distinguished healthy from nonhealthy (as well as from individual diseases) far better than methods adopted from ecological principles (e.g., α-diversity indices), thereby paving a path forward to evaluate human (gut microbiome) health through stool metagenomic profiling. Notably, this framework can be applied to other body niches, for example, quantifying health in skin or oral microbiomes. When demonstrating the potential of GMHI on independent validation datasets, we obtained strong prediction results for healthy individuals, and for cohorts with autoimmunity and liver disease. The strong reproducibility on validation datasets suggests that sufficient dataset integration across a large population could lead to robust predictors of health. This may be due, in part, to the signature encompassing more of the heterogeneity across various sources and conditions, while amplifying signal (against noise) from the repeated phenotype characteristics.
+
+Several limitations of our study should be noted when interpreting our results. First, as the stool metagenomes were collected from over 40 published studies, we cannot entirely exclude experimental and technical inter-study batch effects. Our efforts to curtail batch effects include: (i) consensus preprocessing, that is, downloading all raw shotgun metagenomes and reprocessing each sample uniformly using identical bioinformatics methods; (ii) using frequencies of a signal (i.e., prevalence of “present” microbes) to identify significant associations, rather than comparing or averaging effect sizes between populations, or performing data transformations that may lead to spurious conclusions49; and (iii) validating the reproducibility of GMHI on independent datasets. Second, given our selection criteria (“Methods”), our study does not include all publicly available gut microbiome studies and samples. Certainly, more studies and samples can be taken into consideration under more relaxed criteria. Third, in an effort to be as precise as possible in describing taxonomic features of the human gut, our metagenomic analyses were performed using species-level abundances; however, microbial strains are clearly the most clinically informative and actionable unit50,51. Moreover, different strains within the same species can have significantly different associations with disease52–55, which could not be considered in our study. Nevertheless, our shotgun metagenomic approach is a significant advancement over 16s rRNA gene amplicon sequencing, which are known to be mostly limited to genus-level investigations56,57. Fourth, in the nonhealthy group, we pooled samples from only 12 phenotypes. Certainly, many more pathological states have been linked to the gut microbiome, including neurodegenerative and psychiatric disorders58–60. Thus, future studies will need to continuously update and expand our findings by encompassing a much broader range of conditions as new data become available. Fifth, we did not consider metagenomic functional profiles to define gut ecosystem health as demonstrated extensively by others27,61–63, as this too was outside the scope of our study. For microbiomes of any phenotype of interest, we posit that analyzing both taxonomic composition and functional potential are both important and complementary directions. Last, while we definitely tried to be as inclusive as possible of various geographies, ethnicities/races, and cultures, we do acknowledge that complete elimination of biases is practically impossible. Certainly, for future works, we plan to iteratively expand our application to encompass broader ranges of subjects, including those from underdeveloped countries and minority ethnicities/races, to better understand microbiome diversity and foster inclusion in microbiome research64.
+
+We performed exhaustive keyword searches (e.g., “gut microbiome,” “metagenome,” “whole-genome shotgun (WGS)”) in PubMed and Google Scholar for published studies with publicly available WGS metagenome data of human stool (gut microbiome) and corresponding subject meta-data (as of March 2018). In studies wherein multiple samples were taken per individual across different time-points, we included only the first or baseline sample in the original study. We excluded studies pertaining to diet or medication interventions, or those with fewer than 10 samples. Samples from subjects who were <10 years of age were also excluded from our analysis. Last, samples that were collected from disease controls, but were not reported as healthy nor had any mentioning of diagnosed disease in the original study, were excluded from our analysis. Raw sequence files (.fastq) were downloaded from the NCBI Sequence Read Archive and European Nucleotide Archive databases (Supplementary Data 1) for the study analysis.
+
+Healthy individuals, regardless of whether they had been determined as healthy in the original studies, were considered to be part of the nonhealthy group if their reported BMI fell within the range of underweight (BMI < 18.5), overweight (BMI ≥ 25 and <30), or obese (BMI ≥ 30). Stool metagenome samples from such individuals were reclassified as underweight, overweight, or obese in our analysis.
+
+Sequence reads were processed with the KneadData v0.5.1 quality-control pipeline (http://huttenhower.sph.harvard.edu/kneaddata), which uses Trimmomatic v0.36 and Bowtie2 v0.1 for removal of low-quality read bases and human reads, respectively. Trimmomatic v0.36 was run with parameters SLIDINGWINDOW:4:30, and Phred quality scores were thresholded at “<30.” Illumina adapter sequences were removed, and trimmed nonhuman reads shorter than 60 bp in nucleotide length were discarded. Potential human contamination was filtered by removing reads that aligned to the human genome (reference genome hg19). Furthermore, stool metagenome samples of low read count after quality filtration (<1M reads) were excluded from our analysis.
+
+Taxonomic profiling was done using the MetaPhlAn2 v2.7.0 phylogenetic clade identification pipeline32 using default parameters. Briefly, MetaPhlAn2 classifies metagenomic reads to taxonomies based on a database (mpa_v20_m200) of clade-specific marker genes derived from ~17,000 microbial genomes (corresponding to ~13,500 bacterial and archaeal, ~3500 viral, and ~110 eukaryotic species).
+
+After taxonomic profiling, the following stool metagenome samples were discarded from our analysis: (i) samples composed of >5% unclassified taxonomies (100 samples); and (ii) phenotypic outliers according to a dissimilarity measure. More specifically, Bray–Curtis distances were calculated between each sample of a particular phenotype and a hypothetical sample in which the species’ abundances were taken from the medians across those samples. A sample was considered as an outlier, and thereby removed from further analysis, when its dissimilarity exceeded the upper and inner fence (i.e., >1.5 times outside the interquartile range above the upper quartile and below the lower quartile) among all dissimilarities. This process removed 67 metagenome samples.
+
+As taxonomic assignment based on clade-specific marker genes may be problematic for viruses65,66, we excluded the 298 of viral origin from our analysis. Species that were labeled as either unclassified or unknown (118 species), or those of low prevalence (i.e., observed in <1% of the samples included in our meta-dataset; 472 species), were also excluded. Eventually, 313 microbial species across 4347 stool metagenome samples remained in our study for further analysis (Supplementary Data 2).
+
+The R packages “ade4” v1.7-15 and “vegan” v2.5.6 were used to perform PCoA ordination with Bray–Curtis dissimilarity as the distance measure on the stool metagenome samples, which were comprised of arcsine square root-transformed relative abundances of the aforementioned 313 microbial species identified by MetaPhlAn2. 999 permutations (“adonis2” function in the R “vegan” package v2.5.6) were performed, while random permutations were constrained within studies by using the “strata” option.
+
+The R package “vegan” v2.5.6 was used to calculate Shannon diversity (Shannon index) and species richness based on the species abundance profiles for each sample of our meta-dataset. To identify the 80% abundance coverage for a stool metagenome sample, the smallest number of microbial species that comprise at least 80% of the total relative abundance was identified.
+
+Determining optimal sets
+M
+γ
+H
+and
+M
+γ
+N
+:
+
+MetaCyc pathway-level relative abundances in each stool metagenome were quantified by the HUManN v2.0 pipeline63 using default parameters. The EC-filtered UniRef90 gene family database was integrated within the pipeline. Pathways that were unmapped (or unintegrated) were excluded from the analyses.
+
+A classifier based upon a Random Forests algorithm was designed and curated in Python v3.6.4., while model implementation was performed in the “scikit-learn” Python package v0.23.1.
+
+All stool samples from patients with RA were obtained following written informed consent. The collection of biospecimens was approved by the Mayo Clinic Institutional Review Board (#14-000616). Stool samples from patients with RA were stored in their house-hold freezer (−20 °C) prior to shipment on dry ice to the Medical Genome Facility Research Core at Mayo Clinic (Rochester, MN). Once received, the samples were stored at −80 °C until DNA extraction. DNA extraction from stool samples was conducted as follows: aliquots were created from parent stool samples using a tissue punch, and the resulting child samples were then mixed with reagents from the Qiagen Power Fecal Kit. This included adding 60 μL of reagent C1 and the contents of a power bead tube (garnet beads and power bead solution). These were then vigorously vortexed to bring the sample punch into solution and centrifuged at 18,000 × G for 15 min. From there, the samples were added into a mixture of magnetic beads using a JANUS liquid handler. The samples were then run through a Chemagic MSM1 according to the manufacturer’s protocol. After DNA extraction, paired-end libraries were prepared using 500 ng genomic DNA according to the manufacturer’s instructions for the NEB Next Ultra Library Prep Kit (New England BioLabs). The concentration and size distribution of the completed libraries was determined using an Agilent Bioanalyzer DNA 1000 chip (Santa Clara, CA) and Qubit fluorometry (Invitrogen, Carlsbad, CA). Libraries were sequenced at 23–70 million reads per sample following Illumina’s standard protocol using the Illumina cBot and HiSeq 3000/4000 PE Cluster Kit. The flow cells were sequenced as 150 × 2 paired-end reads on an Illumina HiSeq 4000 using the HiSeq 3000/4000 Sequencing Kit and HiSeq Control Software HD 3.4.0.38. Base-calling was performed using Illumina’s RTA version 2.7.7.
+
+Further information on research design is available in the Nature Research Reporting Summary linked to this article.
+
+Peer review information Nature Communications thanks Christian Diener, Scott Olesen and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Peer reviewer reports are available.
+
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Supplementary information is available for this paper at 10.1038/s41467-020-18476-8.
+

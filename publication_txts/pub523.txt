@@ -1,0 +1,226 @@
+Use of Shotgun Metagenomics and Metabolomics to Evaluate the Impact of Glyphosate or Roundup MON 52276 on the Gut Microbiota and Serum Metabolome of Sprague-Dawley Rats
+
+There is intense debate on whether glyphosate can inhibit the shikimate pathway of gastrointestinal microorganisms, with potential health implications.
+
+We tested whether glyphosate or its representative EU herbicide formulation Roundup MON 52276 affects the rat gut microbiome.
+
+We combined cecal microbiome shotgun metagenomics with serum and cecum metabolomics to assess the effects of glyphosate [0.5, 50,
+175mg/kg body weight (BW) per day
+] or MON 52276 at the same glyphosate-equivalent doses, in a 90-d toxicity test in rats.
+
+Glyphosate and MON 52276 treatment resulted in ceca accumulation of shikimic acid and 3-dehydroshikimic acid, suggesting inhibition of 5-enolpyruvylshikimate-3-phosphate synthase of the shikimate pathway in the gut microbiome. Cysteinylglycine,
+γ-glutamylglutamine
+, and valylglycine levels were elevated in the cecal microbiome following glyphosate and MON 52276 treatments. Altered cecum metabolites were not differentially expressed in serum, suggesting that the glyphosate and MON 52276 impact on gut microbial metabolism had limited consequences on physiological biochemistry. Serum metabolites differentially expressed with glyphosate treatment were associated with nicotinamide, branched-chain amino acid, methionine, cysteine, and taurine metabolism, indicative of a response to oxidative stress. MON 52276 had similar, but more pronounced, effects than glyphosate on the serum metabolome. Shotgun metagenomics of the cecum showed that treatment with glyphosate and MON 52276 resulted in higher levels of Eggerthella spp., Shinella zoogleoides, Acinetobacter johnsonii, and Akkermansia muciniphila. Shinella zoogleoides was higher only with MON 52276 exposure. In vitro culture assays with Lacticaseibacillus rhamnosus strains showed that Roundup GT plus inhibited growth at concentrations at which MON 52276 and glyphosate had no effect.
+
+Our study highlights the power of multi-omics approaches to investigate the toxic effects of pesticides. Multi-omics revealed that glyphosate and MON 52276 inhibited the shikimate pathway in the rat gut microbiome. Our findings could be used to develop biomarkers for epidemiological studies aimed at evaluating the effects of glyphosate herbicides on humans. https://doi.org/10.1289/EHP6990
+
+The gastrointestinal (GI) tract is colonized by a large collection of microorganisms, including bacteria, archaea, fungi, viruses, and small eukaryotes. Bacteria are physically separated from the gut epithelial lining by the inner mucus layer, which prevents epithelial colonization and, potentially, enteric infection (Ducarmon et al. 2019). The gut microbiome metabolism of dietary components, environmental chemicals, and pharmaceuticals has a major influence on health (Koppel et al. 2017). Given that the effects of toxic chemicals on the gut microbiome are not systematically tested in the battery of premarket tests, concerns have been raised about the potential impacts of environmental contaminants, such as glyphosate (Tsiaoussis et al. 2019).
+
+To address this knowledge gap in glyphosate toxicology, we used a multi-omics strategy combining cecal microbiome shotgun metagenomics with serum and cecum metabolomics to test whether the impact of glyphosate, or its representative EU commercial herbicide formulation Roundup MON 52276, on gut microbial metabolism has an effect on the microbiome–host interface. We took advantage of recent progress in high-throughput omics technologies, which have been used to evaluate molecular composition (Taylor et al. 2018) and to predict chemical mode of action in bacteria (Zampieri et al. 2018). Metabolomics is increasingly used to understand the function of the gut microbiome (e.g., Zierer et al. 2018). Combined with shotgun metagenomics sequencing techniques to identify and quantify the whole genomes from a larger range of microorganisms (bacteria, fungi, viruses and protists), we captured the modifications of the metabolic activity of the gut microbiome after exposure to glyphosate or MON 52276.
+
+The experiment was conducted on young adult female Sprague-Dawley rats (8 wk of age at the start of treatment), in accordance with Italian law regulating the use and humane treatment of animals for scientific purposes (Government of Italy 2014). Before commencing the experiment, the protocol was examined by the animal welfare body for approval. The protocol of the experiment was authorized by the ad hoc commission of the Italian Ministry of Health (authorization no. 447/2018-PR).
+
+Female Sprague-Dawley rats were generated in-house at the Cesare Maltoni Cancer Research Center, Ramazzini Institute, following an outbreeding program, and were subjected to ear-punch marking using the Jackson Laboratory system for the purposes of identification. Female animals were chosen to make our results comparable to our previous studies, in which we showed that the long-term exposure to Roundup GT plus (
+GT
++
+) was associated with the development of fatty liver disease (Mesnage et al. 2015, 2017). Animals were randomized after weaning in order to have at most one sister per litter in each group. Homogeneous body weight (BW) within the different groups was also ensured. Animals of 6 wk of age were acclimatized for 2 wk before the start of the experiment. Rats were housed in polycarbonate cages (
+41×25×18cm
+) with stainless steel wire tops and a shallow layer of white wood shavings as bedding. The animals were housed in the same room, three per cage, maintained at a temperature of
+22°C±3°C
+and relative humidity of
+50%±20%
+. Artificial lighting was provided on a 12-h light/dark cycle. The cages were periodically rotated on their racks to minimize effects due to cage position on animals.
+
+Seven groups of 12 female Sprague-Dawley rats of 8 wk of age were treated for 90 d (Excel Table S1). They received ad libitum a rodent diet supplied by SAFE. The feed was analyzed to identify possible contaminants or impurities by Eurofins and the Institut Scientifique d’Hygiène et d’Analyze (see the file “File Contaminant Screening”). Nutrients, pesticides, dioxins, mycotoxins, isoflavones, heavy metals, and polychlorinated biphenyls, as well as some microorganisms, were measured. Glyphosate was not detected (limit of quantification:
+0.01mg/kg
+). The only pesticide residue detected was piperonyl butoxide, which was found at a concentration of
+0.034±0.017mg/kg
+. Glyphosate and MON 52276 (at the same glyphosate-equivalent dose) were administered via drinking water to give a daily intake of 0.5, 50, and
+175mg/kg
+BW per day, which respectively represent the EU acceptable daily intake (ADI), the EU no observed adverse effect level (NOAEL) and the U.S. NOAEL (EFSA 2015; U.S. EPA 2002). Glyphosate was purchased from Merck KGaA (Sigma Aldrich) with purity
+≥95%
+. MON 52276 was sourced from the Italian market as Roundup Bioflow (commercial name). MON 52276 is the formulated glyphosate-based herbicide used for the EU’s review for market registration, and it is sold under different trade names in Europe (Roundup Pro Biactive in Ireland, Roundup Extra 360 or Roundup Star 360 in France, Roundup BioFlow in Italy, Roundup Ultra in Belgium and Austria, or Roundup Bio in Finland) (Mesnage et al. 2019). Tap water from the local water supplier was administered in glass bottles ad libitum. Drinking water was discarded and the bottles were cleaned and refilled daily. The doses of MON 52276 and glyphosate for experimental groups were calculated every week based on weekly mean BWs and weekly mean water consumption in order to achieve the desired dosage, considering that MON 52276 contains
+360g/L
+of glyphosate.
+
+Animals were checked for general status three times a day from Monday to Saturday and twice on Sundays. Status, behavior, and clinical parameters of experimental animals were checked weekly, starting from 2 wk before the start of the treatments until the end of the experiment (13 wk of treatment). The daily water (Excel Table S2) and food consumption (Excel Table S3) per cage were measured before the start of the experiment and then weekly for the entire 13-wk duration of the treatment. The day before sacrifice, the animals were allocated into metabolic cages (model 3701M081; Tecniplast spa Italy). After approximately 16 h in a metabolic cage, total water consumption was registered for each animal. Animals remained in metabolic cages until sacrifice. The BW of the experimental animals was measured before the start of the treatment and then weekly for 13 wk (Excel Table S4). Before sacrifice, the animals were anesthetized by inhalation using a mixture of carbon dioxide and oxygen (70% and 30%, respectively), and about
+7.5mL
+of blood was collected from the vena cava. The blood in its collection tube was stored at room temperature for 20 min and then centrifuged at
+3,000 rpm
+for 10 min to obtain serum, which was aliquoted into labeled cryovials and stored at
+−70°C
+. At the time of sacrifice, two vials of
+100-mg
+cecal content were collected to perform the gut microbiome evaluation (one for the shotgun metagenomics and one for the metabolomics). The sampling schedule is detailed in Table S1.
+
+Metabolon Inc. (Durham, NC) was contracted to conduct the metabolomics analysis. Serum and fecal samples were prepared using the automated MicroLab STAR system from the Hamilton Company. The samples were first lyophilized and then weighed. Between
+20 and 30mg
+of dried sample was then used for the analysis. The samples were prepared by adding water at a 50:1 vol:wt ratio and homogenized via agitation in the presence of steel beads in a Genogrinder (GenoGrinder 2000; Gen Mills). In order to ensure that a consistent amount of sample was analyzed, an equal aliquot of the resulting homogenized material was used for metabolite extraction from each of the samples. Proteins were precipitated with methanol (
+500μL
+of methanol added to
+100μL
+of sample) under vigorous shaking for 2 min (using the GenoGrinder 2000). Following the precipitation step, the samples were centrifuged for 10 min at
+680×g
+to pellet the precipitated material, and the supernatant was transferred to analytical plates as previously described (Ford et al. 2020). Samples were placed briefly in a TurboVap (Zymark) to remove the organic solvent. The sample extracts were stored overnight under nitrogen before preparation for analysis. The resulting extract was analyzed on four independent instrument platforms: two different separate reverse phase ultra-high performance liquid chromatography–tandem mass spectroscopy analysis (RP/UPLC-MS/MS) with positive ion mode electrospray ionization (ESI), a RP/UPLC-MS/MS with negative ion mode ESI, as well as a by hydrophilic-interaction chromatography (HILIC)/UPLC-MS/MS with negative ion mode ESI.
+
+The raw data were extracted, peak-identified, and quality control (QC) processed using Metabolon’s hardware and software as previously described (DeHaven et al. 2010). Serum and cecum metabolites were identified by comparison with libraries of authenticated standards with known retention time/indices, mass to charge ratios, and chromatographic and MS/MS spectral data. Identification was based on retention index, mass match (
+±10 ppm
+), and forward- or reverse-search matching between the experimental data and library standards. More than 3,300 purified standard compounds were registered into the laboratory information management system. The database server is run with Oracle 10.2.0.1 Enterprise Edition. Several controls were analyzed in concert with the experimental samples (Figure S1; Tables S2 and S3) and were used to calculate instrument variability and overall process variability (Table S4). Experimental samples were randomized across the platform run with QC samples spaced evenly among the injections, as outlined in Figure S1. Peak area values allowed the determination of relative quantification among samples (Evans et al. 2009). Absolute quantifications including the determination of limits of detection would require the optimization and validation of compound-specific assays. The raw data is available in Metabolights, with the accession number MTBLS138 (https://www.ebi.ac.uk/metabolights/MTBLS138).
+
+The experimental protocol used to quantify shikimic acid in serum was based on a published method (Noh et al. 2020). Shikimic acid was quantified by HPLC-MS/MS with a Thermo Scientific Quantum Access mass spectrometer with a Thermo Accela LC pump and CTC autosampler. Diclofenac was used as an internal standard. The substances were separated on a C18 Thermo Scientific Accucore HPLC column (
+100×2.1mm, 2.6μm
+). The elution rate was
+0.2mL/min
+and run time was 10 min. Retention times for shikimic acid and diclofenac were 1.5 min and 5.9 min, respectively. For the mass spectrometry, negative ion mode ESI was used. Spray voltage was maintained at 4,000 V and 350°C. Selected reaction monitoring (SRM) transitions (Table S5) were determined from infusion data acquired in central mode data type and with a peak width of
+0.4 m/z
+.
+
+Protein precipitation was achieved by mixing
+100μL
+serum with
+500μL
+acetonitrile and
+50μL
+internal standard, followed by vortexing. Samples were then centrifuged 5 min at
+14,000 rpm
+. The resulting supernatants were evaporated to dryness in a rotavap at 30°C. This extract was then reconstituted in
+80μL
+acetonitrile:water and centrifuged 5 min at
+14,000 rpm
+before being transferred to injection vials.
+
+DNA was extracted from
+100mg
+of cecum content using the Quick-DNA Fecal/Soil Microbe Miniprep Kit (ZymoResearch) with minor adaptations from the manufacturer’s instructions. Adaptations were as follows: bead beating was performed at
+5.5m/s
+three times for 60 s (Precellys 24 homogenizer; Bertin Instruments), and
+2.50μL
+of an elution buffer was used to elute the DNA, following which, the eluate was run over the column once more to increase DNA yield. One negative control (no sample added) and one positive control (ZymoBIOMICS Microbial Community Standard; ZymoResearch) were taken along during the DNA extraction procedures and subsequently sequenced. DNA was quantified using the Qubit HS dsDNA Assay kit on a Qubit 4 fluorometer (Thermo Fisher Scientific).
+
+Given that there is no gold standard for the computational analyses of shotgun metagenomics, we used a combination of approaches. In order to use as many DNA reads as possible, we inferred the taxonomy with the NCBI Reference Sequence (RefSeq) database on the metagenomics Rapid Annotations using Subsystems Technology (RAST) server (Keegan et al. 2016). The taxonomy of 55% of our non-rat cleaned reads was assigned (Excel Table S7). Given that the amplification of 16S rRNA gene sequences was frequently used to assign taxonomy in previous glyphosate gut microbiome studies, we also isolated 16S rRNA gene reads from the shotgun metagenomics data sets, using the metagenomics RAST server with a cutoff of 70% identity to ribosomal sequences from a reduced version of M5RNA with SortMeRNA (Kopylova et al. 2012). An average of 20,000 reads per sample was mapped to 16S rRNA genes, and the taxonomy was assigned using the SILVA database (Excel Table S8). We also inferred the taxonomy with IGGsearch (iggdb_v1.0.0_gut database), which uses taxa-specific marker genes (Excel Table S9) and circumvents problems associated with the amplification of single amplicons, such as in the case of the 16S rRNA gene (Nayfach et al. 2019). In order to understand changes in cecum microbiome functional potential, we used a bacterial gene catalog from the Sprague-Dawley rat gut microbiome using Bowtie2 (version 2.2.5; Pan et al. 2018). A total of
+23.5±6.8%
+of the reads aligned to this catalog. Count data were then extracted from the Binary Alignment Map files using SAMtools (version 1.4; Li et al. 2009). Approximately 41% of the mapped reads were assigned with a Kyoto Encyclopedia of Genes and Genomes (KEGG) Orthology annotation (Excel Table S10). However, this was not used to infer the taxonomy, given that 90.6% of the contigs detected in our metagenome data sets were not annotated at the species level defined by Pan et al. (2018). ShortBRED was also used to quantify the abundance of the EPSPS enzyme (Excel Table S11) with default parameters (Kaminski et al. 2015). For this purpose, a set of markers specific to EPSPS enzymes was created from InterPro family IPR006264 (3-phosphoshikimate 1-carboxyvinyltransferase) with UniRef90 as the reference database using ShortBRED-Identify. ShortBRED-Quantify was then used to measure the abundance of EPSPS markers in the shotgun metagenomic sequence reads with default parameters (Excel Table S11).
+
+A stock solution of
+5.6g/L
+glyphosate was made in water and used to inoculate a freshly prepared de Man, Rogosa, and Sharpe (MRS) broth without peptone (Table S6). Roundup
+GT
++
+and MON 52276 at
+450g/L
+and
+360g/L
+respectively, were directly diluted in bacterial broth. Lacticaseibacillus rhamnosus (formerly known as Lactobacillus rhamnosus) (Zheng et al. 2020) strains were provided by the Université de Caen Microbiologie Alimentaire culture collection, identification nos. 2927 (LB2), 2929 (LB3), 2933 (LB5), and 5164 (LB7). Three of these strains have their reference sequences (
+LB2=CIP A158
+;
+LB3=CIP 71.38
+;
+LB5=CIP 103888
+) in the biobank of the Center de Ressources Biologiques Institut Pasteur (Paris, France), while the strain LB7 was described by Henri-Dubernet et al. (2008). These strains were used because Lacticaseibacillus rhamnosus is prevalent in the human gut and has relevant health-promoting properties as a probiotic (Capurso 2019) and also because previous rat studies investigating the effects of glyphosate on the gut microbiome suggested that Lactobacilli are the most affected bacteria (Lozano et al. 2018; Mao et al. 2018). The broth dilution method was used to determine how pesticides can modify bacterial growth under aerobic conditions (Wiegand et al. 2008). Bacteria from overnight cultures grown in MRS in tubes stored in a 37°C incubator were resuspended to an
+OD
+600nm
+=0.3
+and further diluted 1,000-fold in MRS broth without peptone for L. rhamnosus to obtain approximately
+10
+5
+CFU/mL
+, as confirmed in each experiment by plating the cell suspension on MRS agar plates, which were incubated aerobically at 37°C. Glyphosate was tested from concentrations one-tenth (
+∼0.5mg/L
+) those of the glyphosate dilutions in the drinking water of animals receiving the lowest experimental dose in the present study. Plates were inspected after 24 h and 48 h. All experiments were performed in triplicate.
+
+Statistical analysis was performed in R (version 3.6.1; R Development Core Team). Peak area values for cecum (Excel Table S12) and serum (Excel Table S13) metabolomes were median scaled and log transformed, and any missing values were imputed with sample set minimums. The metabolome data orthogonal partial least squares discriminant analysis (OPLS-DA) was performed using MetaboAnalyst (version 4.0; Chong et al. 2018). Log-transformed data were analyzed using a one-way analysis of variance (ANOVA) adjusted for multiple comparisons with the false discovery rate (FDR) procedure with R package qvalue (version 2.20.0). Tukey honest significant differences (Tukey HSD) tests were computed to determine if there was a difference in mean value between the different treatment groups. The correlations between Euclidean distances from the samples in the cecum and serum metabolome were studied using the Mantel permutation test (method: spearman) with the R package cultevo (version 1.0.2).
+
+Statistical analyses of in vitro tests on bacterial growth were performed using GraphPad Prism (version 8.0.1; GraphPad Software, Inc.). Differences between treatment groups at different concentrations are performed using a Kruskal-Wallis test with Dunn’s multiple comparison post-test.
+
+The primary aim of the present study was to determine the effects of glyphosate on the rat gut microbiome. However, as some commercial GBH products have been shown to be more toxic than glyphosate alone because they contain other potentially toxic compounds (Mesnage et al. 2019), we deemed it important to compare the effects of glyphosate to a representative EU Roundup formulation (MON 52276) administered at the same glyphosate-equivalent dose. The doses tested were 0.5, 50, and
+175mg/kg BW per day
+glyphosate. These were chosen because they respectively represent the EU ADI, the EU NOAEL, and the U.S. NOAEL and are thus of regulatory relevance (EFSA 2015; U.S. EPA 2002). No significant differences were observed in water consumption (Figure 2A,D), feed consumption (Figure 2B,E), or mean BW (Figure 2C,F), except for the group administered with the highest dose of MON 52276 (
+175mg/kg BW per day
+glyphosate-equivalent dose), which had a lower water consumption than the other groups.
+
+The metabolomics analysis detected 749 metabolites in the serum samples and 744 metabolites in the cecal content. We first evaluated the effects of glyphosate and MON 52276 using multivariate analyses. OPLS-DA revealed that treatment with both glyphosate and MON 52276 led to differences in the cecum microbiome compared with treatment with control (Table 1). The OPLS-DA was not discriminatory at the lowest dose of glyphosate tested, but it was for MON 52276.
+
+Note: The predictive ability (Q2) and the percentage of the variance of class variables (R2Y) from these OPLS-DA are presented along the
+p
+-value of a 1,000-time permutation test showing when the predictive ability of the model (Q2) is not part of the distribution formed by the statistic from the permuted data.
+n=10
+per group. Doses: 0.5, 50, and
+175mg/kg BW per day
+of glyphosate (Gly_0.5; Gly_50; Gly_175) or MON 52276 (Mon_0.5; Mon_50; Mon_175). BW, body weight; OPLS-DA, orthogonal partial least squares discriminant analysis. *,
+pQ2<0.05
+; **,
+pQ2p<0.01
+).
+
+Note: Fold changes for the 14 metabolites that were found to have their levels significantly altered in a multigroup analysis (ANOVA with an FDR of 5%), with pair-wise statistical significance determined by a Tukey HSD post hoc test. The statistical significance of a pathway enrichment analysis is also presented (
+p
+-values determined from hypergeometric tests). Doses: 0.5, 50, and
+175mg/kg BW per day
+of glyphosate (Gly_0.5; Gly_50; Gly_175) or MON 52276 (Mon_0.5; Mon_50; Mon_175).
+n=10
+per group. ANOVA, analysis of variance; FDR, false discovery rate; HSD, honest significant differences. *,
+p<0.05
+; **,
+p<0.01
+; **,
+p<0.001
+; and #,
+p<0.05
+.
+
+Levels of dipeptides involved in the regulation of redox balance (prolyglycine, cysteinylglycine, valylglycine) were also significantly higher in a dose-dependent manner in MON 52276- and glyphosate-treated rats. Fold differences for these compounds generally ranged between 2 and 3. Pathway enrichment analysis also revealed that glyphosate affected the level of dipeptide metabolites (Table 2). Although most differences were very similar between the groups exposed to either glyphosate or MON 52276, additional differences were detected in the latter (compared with controls). The most striking example was lower levels of solanidine and carotenediol, to the extent that they became undetectable at the highest dose of MON 52276.
+
+In order to determine if the differences in serum metabolome composition can be linked to the action of glyphosate on the gut microbiome, or if they are associated with systemic effects, we examined whether levels of metabolites that were altered by glyphosate in the cecum microbiome were also different in the serum metabolome of treated rats. Using a Mantel permutation test of Euclidean distances (employing the method of Spearman), we showed that the composition of the cecum metabolome was correlated to the composition of the serum metabolome (Figure S2). The metabolites 3-dehydroshimate, shikimate, and shikimate 3-phosphate were not detected in serum. In addition, other metabolites differentially detected in the gut of glyphosate-treated rats (2-isopropylmalate, linolenoylcarnitine, glutarate, pimelate, valylglycine, prolylglycine, N-acetylputrescine, hydroxy-N6,N6,N6-trimethyllysine) were detected in the serum, but their levels were no different in the serum of glyphosate-treated animals compared with the control group (Tables 2 and
+3). Similarly, the levels of these same metabolites were also no different between controls and MON 52276 treatment groups with the exception of glutarate, which was decreased in both serum and cecum samples (Tables 2 and
+3).
+
+Note: Fold changes for the 33 metabolites that were found to have their levels significantly altered in a multigroup analysis (ANOVA with an FDR of 5%), with pair-wise statistical significance determined by a Tukey HSD post hoc test. ANOVA, analysis of variance; BCAA, branched-chain amino acid; FDR, false discovery rate; HSD, honest significant differences; TCA cycle, tricarboxylic acid cycle. The statistical significance of a pathway enrichment analysis is also presented.
+n=10
+per group. Doses: 0.5, 50, and
+175mg/kg BW per day
+of glyphosate (Gly_0.5; Gly_50; Gly_175) or MON 52276 (Mon_0.5; Mon_50; Mon_175).
+p
+-values determined from hypergeometric tests). *,
+p<0.05
+; **,
+p<0.01
+; **,
+p<0.001
+; #,
+p<0.05
+, and ##,
+p<0.05
+.
+
+Although our analysis showed that the metabolites that had their levels affected by glyphosate or MON 52276 treatment in the cecum were not altered in serum, 33 metabolites had adjusted
+p<0.05
+in the serum metabolomes of glyphosate-treated rats (Table 3; Figure 4). There were significant differences in serum metabolites between vehicle-treated and formulated product MON 52276–treated rats starting at the lowest concentration tested (
+0.5mg/kg BW per day
+), whereas the differences in glyphosate-treated rats were more limited (Table 3). An enrichment analysis revealed that the serum metabolome samples of animals exposed to the treatments reflected differences in nicotinamide, branched-chain amino acid, methionine, cysteine, S-adenosyl methionine (SAM), and taurine metabolism (Table 3).
+
+We attempted to quantify shikimic acid levels in serum samples by adapting a published HPLC-SRM-MS–based method (Noh et al. 2020). A comparison of serum and water samples spiked with shikimic acid with a mixture of shikimic acid and albumin revealed that the presence of protein in serum severely compromised the recovery and sensitivity of detection of this compound (Figures S3 and S4). Nevertheless, the estimated limit of detection of shikimic acid in rat serum was
+∼5–10 ng/mL
+(Figures S3 and S4). The marked interference of shikimic acid detection by serum proteins in all likelihood explains our inability to detect this compound in the serum of rats exposed to either glyphosate or MON 52276 (Excel Table S14). In summary, our results show that considerable further methodological developments will be needed to quantify shikimic acid levels in serum and which is beyond the scope of the present study.
+
+We then performed a shotgun metagenomics analysis of the cecum microbiome to understand which microorganisms were affected by either glyphosate or MON 52276, or both. No species were detected in a negative extraction control, which was included to ensure that no bacterial contamination was introduced by laboratory reagents and procedures. All the species present in the ZymoBIOMICS Microbial Community Standard control were detected.
+
+We also performed a functional analysis using the KO assignments provided in the Sprague-Dawley rat gut microbiome gene catalog. A total of eight KO annotations (of 4,028) had their abundance statistically significantly altered by exposure to glyphosate and MON 52276 as compared with the control group at an FDR of 10% (Figure 6G). Interestingly, differences in the abundance of genes assigned to the KO, cysteine-S-conjugate beta-lyase, corroborate the results of the metabolomics, indicating that glyphosate modified levels of cysteine derivatives. Investigation of the relative abundance of bacterial species contributing to cysteine-S-conjugate beta-lyase functional potential in the cecum metabolome was not possible because the taxonomy of these contigs were not assigned in the gene catalog used in the present study.
+
+Because previous studies in rats have suggested that the abundance of Lactobacilli in the gut microbiome are affected by glyphosate (Lozano et al. 2018; Mao et al. 2018) but no effects were detected on this taxon in the present shotgun metagenomics analysis, we evaluated the dose- and strain-dependency of glyphosate effects on four different strains of Lacticaseibacillus rhamnosus (Figure 7). We observed that glyphosate alone had limited effects on the growth of every bacterial strain, even at a high concentration of
+1g/L
+.
+
+Given that glyphosate-formulated products are known to exert different effects depending on their co-formulant composition (Clair et al. 2012), we also compared the growth inhibition properties of glyphosate and MON 52276 with those of Roundup
+GT
++
+. Interestingly, Roundup
+GT
++
+inhibited bacterial growth at concentrations at which glyphosate and MON 52276 did not present any visible effects (Figure 7).
+
+The effects of glyphosate on the gut microbiome are widely debated, with divergent outcomes in studies performed to date. Some studies have indicated that glyphosate can cause alterations in the population of gut microbiota, whereas others have not (Tsiaoussis et al. 2019). One major reason for the discrepancies regarding glyphosate’s effects on the gut microbiome may be due to the lack of studies using advanced molecular profiling analytical techniques. To address this possibility, we used a combination of shotgun-metagenomics and metabolomics to investigate the cecum microbiota of rats exposed to increasing doses of glyphosate and MON 52276. We demonstrated, to our knowledge for the first time, changes in metabolite levels suggesting that glyphosate inhibits the shikimate pathway in the rat cecum microbiome. Although the rat gut microbiome is substantially different from that of humans, we hypothesize that our findings will be of relevance for human physiology because the bacterial species inhabiting the human GI tract have been found to be sensitive to glyphosate-mediated EPSPS inhibition (Tsiaoussis et al. 2019). However, epidemiological studies will be necessary to ascertain whether the doses of glyphosate to which human populations are typically exposed are sufficient to change gut microbiome metabolism.
+
+In conclusion, the present study demonstrates the power of using multi-omics molecular profiling to reveal changes in the gut microbiome and serum biochemistry following exposure to chemical pollutants that would otherwise be missed using more standard, less comprehensive analytical methods. Employing this approach allowed us to identify glyphosate effects on the rat gut microbiota, namely a marked increase in shikimate and 3-dehydroshikimate reflective of inhibition of EPSPS of the shikimate pathway. In addition, we found higher levels of
+γ-glutamylglutamine
+, cysteinylglycine, and valylglycine, suggestive of a response to oxidative stress. Furthermore, serum metabolomics showed that treatment with glyphosate and MON 52276 was associated with altered levels of nicotinamide, branched-chain amino acid, methionine, cysteine, and taurine metabolism, which is also indicative of a response to oxidative stress. Although more studies are needed to understand the health implications of glyphosate inhibition of the shikimate pathway and other metabolic disturbances in the gut microbiome and serum, our findings could be used in the development of biomarkers for epidemiological studies and to understand if glyphosate can have biological effects in human populations.
+

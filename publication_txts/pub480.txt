@@ -1,0 +1,90 @@
+No distinct microbiome signature of irritable bowel syndrome found in a Swedish random population
+
+The ethiopathogenesis of irritable bowel syndrome (IBS) is unknown. While a link to the gut microbiome is postulated, the heterogeneity of the healthy gut makes it difficult to draw definitive conclusions. We aimed to describe the faecal and mucosa-associated microbiome (MAM) and health correlates on a community cohort of healthy and IBS individuals with no colonoscopic findings.
+
+The PopCol study recruited a random sample of 3556 adults; 745 underwent colonoscopy. IBS was defined by Rome IV criteria and organic disease excluded. 16S rRNA gene sequencing was conducted on sigmoid biopsy samples from 376 representative individuals (63 IBS cases) and faecal samples from 185 individuals (32 IBS cases).
+
+While sigmoid MAM was dominated by Lachnospiraceae, faeces presented a higher relative abundance of Ruminococcaceae. Microbial richness in MAM was linearly correlated to that in faeces from the same individual (R²=0.255, p<3E-11) as was diversity (R²=0.06, p=0.0022). MAM diversity decreased with increasing body mass index (BMI; Pearson’s r=−0.1, p=0.08) and poorer self-rated health (r=−0.15, p=0.007), but no other health correlates. Faecal microbiome diversity was correlated to stool consistency (r=−0.16, p=0.043). Several taxonomic groups were correlated to age, BMI, depression and self-reported health, including Coprococcus catus associated with lower levels of depression (r=−0.003, p=0.00017). The degree of heterogeneity observed between IBS patients is higher than that observed between healthy individuals.
+
+No distinct microbial signature was observed in IBS. Individuals presenting with low self-rated health or high BMI have lower gut microbiome richness.
+
+The pivotal role played by the human microbiome in health and disease is being increasingly recognised.1 2 At the same time, there is a growing understanding of the heterogeneity of the healthy human microbiome, which has led to population-based cohorts of faecal microbiome communities, such as the Flemish Gut Flora and Dutch LifeLines-Deep studies.3 Without an adequate understanding of which demographic parameters influence the gut microbiome, it is difficult to plan adequate studies into its role in disease.
+
+In the present study, we aimed to compare the sigmoid MAM and faecal microbiome of a representative population-sample. We hypothesised that while the microbial composition of faeces differs from the MAM in an individual, factors specific to each individual would also be observable. Furthermore, we hypothesised that IBS would be characterised by an altered MAM. To our knowledge, this is the first study to investigate the mucosa-associated gut microbiome of an adult population-based cohort.
+
+The present study is part of PopCol, a population-based colonoscopy study previously described in detail.14 A random sample of 3556 adults living in Stockholm, Sweden, were sent a validated Abdominal Symptom Questionnaire (ASQ).19 All responders (n=2293) were contacted by phone with an invitation to a hospital visit, including medical history taken by a gastroenterologist, blood sampling and completion of further questionnaires. All participants partaking in the hospital visit (n=1244), except for those fulfilling exclusion criteria for colonoscopy (see15), were invited to undergo a colonoscopy with biopsies. A total of 745 participants accepted (mean age=51.7 years (range 18–70); 57.2% women). Individuals participating in colonoscopy reported in general more symptoms, although one third were still symptom free.14 A subset of participants (n=741; all participants recruited in the latter half of the study) were also asked to collect a faecal sample at home and send it by post to the study centre (all but four complied). The colonoscopy procedure has been previously described.14 In this study, the sigmoid biopsies and the faecal samples were analysed in the volunteers without any observed colonic pathology at colonoscopy or on histopathological examination of the biopsy.
+
+At the time of sampling, volunteers filled in the ASQ19, which contains all questions later included in Rome IV. IBS was therefore defined in accordance with the Rome IV definition as recurrent abdominal pain, at least 1 day/week in the last 3 months, associated with two or more of the following criteria: (1) related to defecation (relieved or induced by defecation), (2) associated with a change in frequency of stool and (3) associated with a change in form (appearance) of stool using the ASQ.19 In total, 152 IBS cases were identified.
+
+IBS symptom burden was assessed using the Gastrointestinal Symptom Rating Scale (GSRS).20
+
+Stool form correlates with colonic transit time.21 Questions on stool pattern were used to estimate a score, based on the following questions from the ASQ:
+
+Questions associated with a faster transit time (a2, a4, b) were given a score of +1 for each question. Questions associated with a slower transit time (a1, a3) were given a score of −1 for each question. In this way, each participant’s estimated stool consistency could be placed on a scale from −2 to +3.
+
+Body mass index (BMI) was calculated from height and weight measurements taken at the first hospital visit.
+
+Participants were asked at the hospital visit whether they had taken any antibiotics or probiotics during the last 3 months.
+
+Smoking and use of Scandinavian snus were reported at the hospital visit. Number of cigarettes smoked per day were categorised into four categories: 0=none, 1=<10, 2=10–19 and 3>=20 cigarettes per day. Snus was categorised as current user (at least one dose/week) or non-user. Smoking and snus were combined into four categories such that one unit was added to the tobacco score if the volunteer used snus on a weekly basis.
+
+Psychological distress was assessed using the validated Hospital Anxiety and Depression (HAD) scale,22 a widely used self-assessment scale.
+
+Self-rated health was assessed using the question: “How would you rate your general state of health” rated on a 5-point scale from ‘1=Excellent’ to ‘5=Poor’.
+
+Bowel preparation and ileocolonoscopy were performed as previously described.14 During ileocolonoscopy, a biopsy from the sigmoid was taken by pinch biopsy and immediately preserved in freezer medium at −80°C. Faecal samples were collected by the participants at home, up to 3 months before ileocolonoscopy, posted to the hospital and frozen at −80°C on arrival. Seven hundred and forty-five ileocolonoscopies were performed, and 284 faecal samples delivered, of which 423 and 186, respectively, had DNA extracted and amplified as described below.
+
+Biopsy samples were thawed, spun-down and had DNA extracted for 16S rRNA gene sequencing as previously described.22 About 170 ng of DNA, or 25 µL of DNA solution in case an appropriate concentration could not be reached, were submitted to a 30 cycle 1-step PCR amplification.22 Samples were spread randomly across 9 DNA extraction runs and four sequencing runs, yielding 12 004–241 925 high-quality 16S read-pairs per approved sample (median 28 335). There were small but significant effects of DNA extraction batch (Analysis of Similarity ANOSIM r=0.044, p=0.004) and of sequencing run (r=0.059, p=0.004) on Jensen-Shannon beta-diversity.
+
+At each extraction run, a mock sample (ZymoBIOMICS Microbial Community Standard, Zymo Research, Irvine, California, USA) was included as a positive control and an extraction blank was performed as negative control. Likewise, during PCR a DNA mock sample (ZymoBIOMICS Microbial Community DNA Standard, Zymo Research) was included as the positive control and a PCR as negative. All four controls were sequenced together with its respective plate and any run where one or more of the controls did not perform as expected was performed again. All sequencing was conducted on an Illumina MiSeq with 2×300 bp reads.
+
+Cutadapt v1.1423 was used to trim 3′ bases with Phred score lower than 15 and 5′ primer sequences. Reads that did not contain both primer sequences, that had less than 120 bp left after trimming or that contained more than 3 n calls were discarded. Reads were merged and dereplicated with Usearch v10.0.240.24 Singleton sequences and non-merging reads were discarded. ASV (amplified sequence variants) were picked with the unoise3 denoising algorithm. All merged reads from each sample were mapped back to the centroids at a minimal identity of 98% for quantification. A total of 4297 ASV were produced from the combined faecal and biopsy dataset. Function isContaminant from the Decontam package25 was used to assess for the presence of taxa overly abundant in the negative controls. Fisher’s method was used to combine across extraction plates. Four ASV were flagged as contaminants and removed from the analysis. Taxonomy was assigned to centroids by mapping them to a curated taxonomy of the SILVA v132 database26 as implemented in the DADA2 package (v1.6.0) with functions assignTaxonomy and addSpecies. 27 The final ASV table is available as online supplementary table 1. Samples were kept if they reached 12 000 approved reads. This excluded one faecal sample and 50 MAM samples, leaving a total of 185 faecal samples and 376 MAM samples. ASV were kept if their total counts reached at least 5% of the total number of samples, that is, 29 counts or higher. In total, 2793 ASV were kept.
+
+Each sample was normalised to one before all analyses except richness. In the case of richness and diversity, subsampling to 12 000 reads was performed. Chao1 was used for estimating sample richness and Shannon’s entropy for alpha-diversity. All computations were performed in R v3.3.2 using the packages Vegan v.2.4–3,28 Pheatmap v.1.0.829 and Vioplot v. 0.2.30
+
+Beta-diversity was calculated on Bray-Curtis distance except on cluster analyses, where Jensen-Shannon was used. Heatmap rows and columns are clustered by ward-linkage. Presence of discrete clusters was assessed both at the genus- and at the ASV-level, but only the former results are shown. Scatter plots are based on non-metric multidimensional scaling (NMDS).
+
+The PopCol cohort is highly comparable to the background population.14 However, since a subset of individuals and samples were excluded in this study (figure 1), the representativeness of this subcohort was assessed. Sigmoid biopsy samples from 376 individuals and faecal samples from 185 individuals were kept (overlap of 178). This is summarised in table 1. The exclusion of individuals with diverticulosis leads to a somewhat younger cohort (all: mean age 51.7 years; included faecal: mean 50.4, p=0.07; included MAM: mean 49.1, p<10E-10). As a consequence, the cohort is also less overweight (all: mean BMI 24.9 kg/m2; included faecal: mean 24.0, p=0.0015; included MAM: mean 24.4, p=0.0005). There was a significant correlation between age and BMI in our population (r=0.22, p=2E-9).
+
+BMI, body mass index.
+
+The prevalence of IBS subtypes was similar in the included individuals and in those excluded due to the presence of polyps, diverticula or spirochaetosis. Individuals with inflammatory bowel disease (IBD, n=6) and/or microscopic colitis (n=3) were more likely to present with IBS-D like symptoms (table 2).
+
+IBD, inflammatory bowel disease; IBS, irritable bowel syndrome.
+
+The effect of seven quantitative factors on microbiome richness and diversity of non-diseased subjects was assessed: age, BMI, self-rated health, anxiety (HAD score), depression (HAD score), severity of symptoms (GSRS score) and a proxy measure of stool consistency. Online supplementary table S2 presents the correlation strength and uncorrected significance for richness, evenness and diversity for each of the parameters assessed. MAM diversity was negatively correlated to self-rated health (r=−0.15, p=0.007). Faecal microbiome diversity was correlated to consistency (r=−0.16, p=0.04). Looser stools were associated to lower richness, but this trend was not significant (stool: r=−0.11, p=0.18; MAM: r=−0.94, p=0.097).
+
+About 24 faecal sample donors and 41 biopsy donors had used antibiotics on the 3 months prior to the study, comprising at least 15 different antibiotic classes. Of these individuals, 12 had also taken probiotics in the same time period. Individuals exposed to antibiotics did not display reduced richness or diversity in their MAM or stool microbiome at the time of sampling, considering either IBS-free or all individuals. No difference was observed concerning probiotic usage. Likewise, tobacco usage had no significant effect on richness and diversity, treating it either as a Boolean or a quantitative variable.
+
+Both faecal samples and biopsies were dominated by Clostridiales, followed by Bacteroidales. Differences between faeces and MAM became more notable at the family and genus levels. While MAM was dominated by Lachnospiraceae, faeces presented a higher relative abundance of Ruminococcaceae (figure 2A). At the genus level, Blautia and other, unclassified, Lachnospiraceae were conspicuous in MAM, while faecal samples presented a higher proportion of Faecalibacterium (figure 2B).
+
+To mine biomarkers, we ran Multivariate Association with Linear Models (Maaslin). The parameters considered were the same quantitative factors as in the alpha-diversity analysis, as well as IBS subtype. On the faecal dataset, the only significant association was a negative correlation between Lachnospira pectinoschiza and BMI (L. pectinoschiza ~0.0032×BMI; p<3E-10). For the biopsy dataset, four clades were found to covary with different demographic parameters (table 3). No associations were found with diagnosis of IBS, IBS type or GSRS score.
+
+MAM, mucosa-associated microbiome.
+
+The vast majority of the inter-sample variation in the datasets cannot be explained by any of the demographic, technical or clinical parameters assessed (90.2% for biopsies; 96.5% for faecal samples; online supplementary figure S1). Indeed, the largest fraction of the variability is explained by technical artefacts alone (5% of total).
+
+Generally, the observed microbiome profiles did not segregate on the basis of IBS type or total GSRS sum (figure 4; online supplementary figure S3).
+
+To directly contrast the microbiome in stool and sigmoid MAM, a pairwise analysis was done on the subset of individuals for which both sample types were present (n=29 IBS, 149 controls). The microbial richness in MAM was linearly correlated to that in faeces from the same individual (R²=0.255, p<3E-11; figure 5A). This was also true for diversity, but to a lesser extent (R²=0.06, p=0.0022). Bray-Curtis divergence was smaller between faecal and biopsy samples taken from the same individual than between MAM and faecal samples taken from different individuals (mean values: 0.641 vs 0.791; p<2.2E-16; Mantel’s test r=286, p=0.001; online supplementary figure 4). Importantly, the difference in sample type dominated over the individual signature (figure 5B).
+
+We also assessed how each taxon correlates between these paired samples. For each taxonomic level from phylum to genus, the correlation between taxa was calculated, showing that 57 out of 242 (24%) clades analysed have a significant Pearson correlation between paired samples, while 98 (41%) had a significant Spearman rank correlation (online supplementary table S3). Likewise, 171 of 528 (32%) ASV analysed presented a significant Pearson correlation (Spearman: 208 (39%)) (online supplementary table S3). Correlations are generally stronger at the ASV level (Pearson’s third quartile 0.229, maximum 0.966) than at lower taxonomic levels (Pearson’s third quartile 0.159, maximum 0.637).
+
+In this study, we present the microbial composition of paired sigmoid biopsy and faecal samples from a broad randomly selected population cohort with and without IBS and with an otherwise healthy gut. We observed that faecal microbiome diversity correlated to a proxy measure of stool consistency. We also observed that those with poorer self-rated health had a decreased MAM diversity. The between-sample divergence was higher in IBS compared with controls from the same population sampling frame, but no clear biomarker of IBS was found.
+
+In conclusion, no distinct microbial signature was observed in IBS. The degree of heterogeneity in the gut of healthy individuals is in the same order of magnitude as the difference between healthy and IBS individuals, but individuals presenting with poor self-rated health have, on average, a lower gut microbiome richness and a larger spread in composition. This same spread in composition was observed for individuals with IBS-U and IBS-M, as well as for underweight and overweight individuals.
+
+Twitter: @luhugerth
+
+Contributors: Study design and data collection: LK, LA, LE; data analysis: LWH, AA, NJT; reporting of the findings: LWH, AA, NJT, AMF, PTS, LA, LE.
+
+Funding: This study was financed by Ferring Pharmaceuticals and the Söderbergs Foundation.
+
+Competing interests: None declared.
+
+Patient consent for publication: Not required.
+
+Provenance and peer review: Not commissioned; externally peer reviewed.
+
+Data availability statement: Data are available in a public, open access repository. The raw sequencing data is freely available from the European Nucleotide Archive as study PRJEB31817, samples ERS3379832-ERS3380418, available at https://www.ebi.ac.uk/ena/data/view/PRJEB31817.
+

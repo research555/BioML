@@ -1,0 +1,67 @@
+Gut microbiome in allogeneic hematopoietic stem cell transplantation and specific changes associated with acute graft vs host disease
+
+
+
+Allogeneic hematopoietic stem cell transplantation (aHSCT) is a standard validated therapy for patients suffering from malignant and nonmalignant hematological diseases. However, aHSCT procedures are limited by potentially life-threatening complications, and one of the most serious complications is acute graft-versus-host disease (GVHD). During the last decades, DNA sequencing technologies were used to investigate relationship between composition or function of the gut microbiome and disease states. Even if it remains unclear whether these microbiome alterations are causative or secondary to the presence of the disease, they may be useful for diagnosis, prevention and therapy in aHSCT recipients. Here, we summarized the most recent findings of the association between human gut microbiome changes and acute GVHD in patients receiving aHSCT.
+
+Core Tip: This review reports the compositional and functional changes in gut microbiome of allogeneic hematopoietic stem cell transplantation recipients associated with acute graft-versus-host disease that could serve a biomarker for diagnosis and prevention in patients receiving allogeneic hematopoietic stem cell transplantation.
+
+In human health, DNA sequencing technologies, including 16S rRNA gene-based amplicon sequence analysis and whole genome shotgun metagenomic analysis were used to discover how exogenous and intrinsic host factors influence gut microbiome composition[1,2]. In large cohorts, scientists investigated the impact of factors such as lifestyle, dietary information, anthropometrics and drugs on the gut microbiome communities[3,4]. They found that age, gender, dietary factors and intrinsic parameters were highly correlated with composition and function of the gut microbiome. They also observed that several drug categories, such as antibiotics, proton-pump, metformin, statins, and laxatives, had a strong effect on the gut microbiome. On the other hand, gut microbiome can affect the bioavailability of oral drugs[5]. Thus, micro-organisms can impact drug absorption and metabolism, that may explain, in part, inter-individual heterogeneity in drug response and disposition[6].
+
+Here, we summarized the most recent findings of the association between human gut microbiome changes and graft vs host disease of the intestinal tract in patients receiving aHSCT.
+
+Several studies reported the profound alteration of the gut microbiota during the aHSCT procedure, as summarized in Table
+1. Following various conditioning regimens, both myeloablative or of reduced-intensity, a recent 16S rRNA gene-based amplicon sequence analysis that profiled 8767 fecal samples from 1362 patients undergoing aHSCT at four different centers observed a significant gut microbiota disruption characterized by loss of diversity and domination by single taxa[15], defined as occupation of at least 30% of the gut microbiota by a single predominating bacterial taxon. They also identified an association between lower intestinal diversity and higher risks of transplantation-related death. Moreover, samples collected prior transplantation also showed evidence of microbiome disruption, and lower diversity before transplantation was associated with poor survival. In another study, mortality outcomes were significantly worse in patients with lower intestinal diversity, with an overall survival at 3 years of 36% in low gut microbiome diversity patients compared to 67% in high diversity groups. Overall, low diversity showed a strong effect on mortality after multivariate adjustment for other clinical predictors. Furthermore, in subjects with lower diversity, the gut microbiota was generally dominated by a single bacterial genus, including Enterococcus, Streptococcus, Enterobacteriaceae (Escherichia and Kluyvera), and Lactobacillus[16].
+
+HSCT: Hematopoietic stem cell transplantation.
+
+Thus, overall, aHSCT procedure is associated with a loss of gut microbiota diversity, a decrease in micro-organisms associated with health-promoting effects[20], and with a significant increase or domination by potentially pathobionts (Figure
+1).
+
+Studies reported that decreased gut microbiota diversity and richness was associated with the onset of acute intestinal GVHD. Jenq et al[21], in 2015, reported in a cohort of 115 patients receiving aHSCT, that increased bacterial diversity was associated with reduced GVHD-related mortality[21]. Moreover, in their recent 16S rRNA gene-based amplicon sequence analysis, Peled et al[15] found that higher intestinal diversity was associated with decreased risk of deaths attributable to GVHD (17 GVHD-related deaths among 244 patients in the higher-diversity group vs 26 such deaths among 184 patients in the lower-diversity group; hazard ratio, 0.49; 95%CI: 0.26-0.90)[15].
+
+Altogether, these findings clearly associate decreased diversity and richness of the gut microbiota, known to be associated with enhanced inflammation and impaired immunity[26], to onset of acute GVHD (Table
+2).
+
+HSCT: Hematopoietic stem cell transplantation; GVHD: Graft-versus-host disease.
+
+Using a 16S rRNA-based sequencing analysis, Jenq et al[21] reported that genus Blautia were most significantly associated with reduced GVHD-related mortality, whereas genus Veillonella, was associated with increased GVHD-related mortality[21].
+
+Further studies are needed to confirm or not the controversial role of Akkermansia in acute GVHD. Moreover, some species of the genus Blautia should be investigated as a potential biomarker: High relative abundance at the time of engraftment being protective against GVHD, while low relative abundance could be considered a risk factor for secondary development of GVHD.
+
+The functional alterations of the intestinal microbiome in patients receiving aHSCT are currently poorly described because the majority of studies have used 16S ribosomal RNA gene-based technics, which boil down to providing bacterial taxonomy only at the genus level, but are ineffective in obtaining functional information. In a cohort of 44 patients, Galloway-Peña et al[22] reported that fecal metabolites (fecal indole and butyrate levels) were not associated with aGVHD[22]. In another study, Michonneau et al[31] reported that aGVHD was characterized by specific metabolomics changes in two cohorts of patients (n = 99). They found that bile acids, plasmalogens, tryptophan, and arginine metabolites were the main contributors involved, especially the aryl hydrocarbon receptor ligand 3-indoxyl sulfate. In addition to host-derived metabolites, they also identified significant variation in microbiota-derived indole compounds, especially in aryl hydrocarbon receptor ligands. The authors suggested that allogeneic immune response during aGVHD might be influenced by bile acids and by the decreased production of aryl hydrocarbon receptor ligands by gut microbiome that could limit indoleamine 2,3-dioxygenase induction and influence allogeneic T cell reactivity[31]. To assess if altered composition of the gut microbiota may result in an altered metabolome, which potentially disrupts functionalities at the onset of aGVHD, Payen et al[25] quantified the Short Chain Fatty Acids (SCFA) content in fecal samples with measurement of total SCFAs and acetate, propionate, and butyrate. They found that the fecal amount of all SCFAs was drastically diminished at aGVHD onset. In detail, they observed that total SCFAs, acetate and butyrate respectively decreased by 80%, 75% and 95% in severe aGVHD patients as compared with controls[25]. Importantly, in a mouse model, Mathewson et al[32] demonstrated that butyrate restoration improved intestinal epithelial cells junctional integrity and mitigated aGVHD[32].
+
+Based on a shotgun metagenomic sequencing analysis, Ilett et al[10] found that a total of 1267 and 1289 genes were present in significantly different amounts among those who developed aGVHD vs those who did not develop aGVHD during pre-HSCT and early post-aHSCT, respectively. Of these genes, 24 overlapped between the 2 time periods, all being significantly higher in abundance among those who did not develop aGVHD. They pointed out that 1 gene (O2.CD1-0-PT_GL0039283) had a 3-log fold-change in both periods and is known to function as a toxin named Petz, that triggers bacterial autolysis in pathological bacteria[10].
+
+The investigations described in this mini review provide an understanding of the role of the gut microbiome in the pathophysiology of aGVHD in patients receiving aHSCT. Observational studies have shown that a decrease in diversity of the gut microbiome and specific species or metabolic pathways were associated with aGVHD. These specific changes could serve as biomarkers for diagnosis and prevention in patients receiving aHSCT. Moreover, functional alterations of the gut microbiome during aHSCT should be more investigated so that modulations of the gut microbiome could be tested to prevent this potentially life-threatening complication.
+
+Conflict-of-interest statement: There is no conflict of interest associated with any of the senior author or other coauthors who contributed their efforts in this manuscript.
+
+Provenance and peer review: Invited article; Externally peer reviewed.
+
+Peer-review model: Single blind
+
+Peer-review started: April 20, 2021
+
+First decision: July 27, 2021
+
+Article in press: November 20, 2021
+
+Specialty type: Gastroenterology and hepatology
+
+Country/Territory of origin: France
+
+Peer-review report’s scientific quality classification
+
+Grade A (Excellent): 0
+
+Grade B (Very good): B, B
+
+Grade C (Good): 0
+
+Grade D (Fair): 0
+
+Grade E (Poor): 0
+
+P-Reviewer: Hegazy MAE, Sameer S S-Editor: Fan JR L-Editor: A P-Editor: Fan JR
+

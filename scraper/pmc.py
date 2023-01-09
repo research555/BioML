@@ -53,7 +53,8 @@ class ScrapePMC():
             start = datetime.now()
             self.driver.get(url)
             paragraphs = [paragraph.text for paragraph in self.driver.find_elements(By.CLASS_NAME, 'p')]
-            print(len(paragraphs))
+            if len(paragraphs) == 0:
+                return
             with open(rf'{os.getenv("PUB_TXT_PATH")}/pub{index}.txt', mode='w', encoding='utf-8') as f:
                 f.write(f'{title}\n\n')
                 for paragraph in paragraphs:
@@ -61,7 +62,12 @@ class ScrapePMC():
                 exc = 'UPDATE article_links SET mined = 1 WHERE link = %s'
                 self.sql.cursor.execute(exc, (url,))
                 self.sql.mydb.commit()
+
             end = datetime.now()
-            print(f'publication {index} out of 20,000 has been mined. Remaining time  in seconds is:')
-            print((end - start) * (20000 - index))
+            print(f'number of paragraphs: {len(paragraphs)}')
+            print(f'Elapsed time: {end - start}')
+            print(f'publication {index} out of 20,000 has been mined.')
+            print(f' Remaining time in seconds is: {(end - start) * (20000 - index)}')
+            print('-------------------------------------------------------------------')
+            time.sleep(3)
 

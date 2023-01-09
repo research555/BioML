@@ -1,11 +1,11 @@
 from scraper.pmc import ScrapePMC
+import time
+from datetime import datetime
 
-try:
-    pmc = ScrapePMC()
-    pmc.scrape_pubs_from_db()
-except Exception as e:
-    print(e)
-    pass
+
+pmc = ScrapePMC()
+pmc.scrape_pubs_from_db()
+
 
 
 
